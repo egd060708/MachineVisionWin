@@ -1,0 +1,3 @@
+D:\usefulTools\Cmake\bin\cmake.exe -E rm -f CMakeFiles\Frangi.dir/objects.a
+D:\usefulTools\MinGW\mingw64\bin\ar.exe qc CMakeFiles\Frangi.dir/objects.a @CMakeFiles\Frangi.dir\objects1.rsp
+D:\usefulTools\MinGW\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Frangi.dir/objects.a -Wl,--no-whole-archive -o Frangi.exe -Wl,--out-implib,libFrangi.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Frangi.dir\linkLibs.rsp
