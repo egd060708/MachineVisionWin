@@ -7,10 +7,10 @@ set(CMAKE_DEPENDS_GENERATOR "MinGW Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "D:/Git_Project/github/finger-vein/CMakeLists.txt"
-  "D:/Git_Project/github/finger-vein/Finger/CMakeLists.txt"
-  "D:/Git_Project/github/finger-vein/Hand/CMakeLists.txt"
-  "D:/Git_Project/github/finger-vein/Hessian/CMakeLists.txt"
+  "D:/Git_Project/github/MachineVisionWin/CMakeLists.txt"
+  "D:/Git_Project/github/MachineVisionWin/Finger/CMakeLists.txt"
+  "D:/Git_Project/github/MachineVisionWin/Hand/CMakeLists.txt"
+  "D:/Git_Project/github/MachineVisionWin/Hessian/CMakeLists.txt"
   "CMakeFiles/3.30.0-rc1/CMakeCCompiler.cmake"
   "CMakeFiles/3.30.0-rc1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.30.0-rc1/CMakeRCCompiler.cmake"

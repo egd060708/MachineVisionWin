@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/Git_Project/github/finger-vein/Hessian/src/frangi.cpp" "Hessian/CMakeFiles/LibFrangi.dir/src/frangi.cpp.obj" "gcc" "Hessian/CMakeFiles/LibFrangi.dir/src/frangi.cpp.obj.d"
+  "D:/Git_Project/github/MachineVisionWin/Hessian/src/frangi.cpp" "Hessian/CMakeFiles/LibFrangi.dir/src/frangi.cpp.obj" "gcc" "Hessian/CMakeFiles/LibFrangi.dir/src/frangi.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

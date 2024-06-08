@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/Git_Project/github/finger-vein/fingervein.cpp" "CMakeFiles/FingerVein.dir/fingervein.cpp.obj" "gcc" "CMakeFiles/FingerVein.dir/fingervein.cpp.obj.d"
+  "D:/Git_Project/github/MachineVisionWin/fingervein.cpp" "CMakeFiles/FingerVein.dir/fingervein.cpp.obj" "gcc" "CMakeFiles/FingerVein.dir/fingervein.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -56,10 +56,10 @@ RM = D:\usefulTools\Cmake\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Git_Project\github\finger-vein
+CMAKE_SOURCE_DIR = D:\Git_Project\github\MachineVisionWin
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Git_Project\github\finger-vein\build
+CMAKE_BINARY_DIR = D:\Git_Project\github\MachineVisionWin\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d D:\Git_Project\github\finger-vein\build && $(CMAKE_COMMAND) -E cmake_progress_start D:\Git_Project\github\finger-vein\build\CMakeFiles D:\Git_Project\github\finger-vein\build\Hessian\\CMakeFiles\progress.marks
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Hessian/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git_Project\github\finger-vein\build\CMakeFiles 0
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(CMAKE_COMMAND) -E cmake_progress_start D:\Git_Project\github\MachineVisionWin\build\CMakeFiles D:\Git_Project\github\MachineVisionWin\build\Hessian\\CMakeFiles\progress.marks
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Hessian/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git_Project\github\MachineVisionWin\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Hessian/clean
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Hessian/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,22 +102,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Hessian/preinstall
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Hessian/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Hessian/preinstall
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Hessian/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d D:\Git_Project\github\finger-vein\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Hessian/CMakeFiles/LibFrangi.dir/rule:
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Hessian/CMakeFiles/LibFrangi.dir/rule
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Hessian/CMakeFiles/LibFrangi.dir/rule
 .PHONY : Hessian/CMakeFiles/LibFrangi.dir/rule
 
 # Convenience name for target.
@@ -126,12 +126,12 @@ LibFrangi: Hessian/CMakeFiles/LibFrangi.dir/rule
 
 # fast build rule for target.
 LibFrangi/fast:
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f Hessian\CMakeFiles\LibFrangi.dir\build.make Hessian/CMakeFiles/LibFrangi.dir/build
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Hessian\CMakeFiles\LibFrangi.dir\build.make Hessian/CMakeFiles/LibFrangi.dir/build
 .PHONY : LibFrangi/fast
 
 # Convenience name for target.
 Hessian/CMakeFiles/Frangi.dir/rule:
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Hessian/CMakeFiles/Frangi.dir/rule
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Hessian/CMakeFiles/Frangi.dir/rule
 .PHONY : Hessian/CMakeFiles/Frangi.dir/rule
 
 # Convenience name for target.
@@ -140,7 +140,7 @@ Frangi: Hessian/CMakeFiles/Frangi.dir/rule
 
 # fast build rule for target.
 Frangi/fast:
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f Hessian\CMakeFiles\Frangi.dir\build.make Hessian/CMakeFiles/Frangi.dir/build
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Hessian\CMakeFiles\Frangi.dir\build.make Hessian/CMakeFiles/Frangi.dir/build
 .PHONY : Frangi/fast
 
 main.obj: main.cpp.obj
@@ -148,7 +148,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f Hessian\CMakeFiles\Frangi.dir\build.make Hessian/CMakeFiles/Frangi.dir/main.cpp.obj
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Hessian\CMakeFiles\Frangi.dir\build.make Hessian/CMakeFiles/Frangi.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -156,7 +156,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f Hessian\CMakeFiles\Frangi.dir\build.make Hessian/CMakeFiles/Frangi.dir/main.cpp.i
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Hessian\CMakeFiles\Frangi.dir\build.make Hessian/CMakeFiles/Frangi.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -164,7 +164,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f Hessian\CMakeFiles\Frangi.dir\build.make Hessian/CMakeFiles/Frangi.dir/main.cpp.s
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Hessian\CMakeFiles\Frangi.dir\build.make Hessian/CMakeFiles/Frangi.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 src/frangi.obj: src/frangi.cpp.obj
@@ -172,8 +172,8 @@ src/frangi.obj: src/frangi.cpp.obj
 
 # target to build an object file
 src/frangi.cpp.obj:
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f Hessian\CMakeFiles\LibFrangi.dir\build.make Hessian/CMakeFiles/LibFrangi.dir/src/frangi.cpp.obj
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f Hessian\CMakeFiles\Frangi.dir\build.make Hessian/CMakeFiles/Frangi.dir/src/frangi.cpp.obj
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Hessian\CMakeFiles\LibFrangi.dir\build.make Hessian/CMakeFiles/LibFrangi.dir/src/frangi.cpp.obj
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Hessian\CMakeFiles\Frangi.dir\build.make Hessian/CMakeFiles/Frangi.dir/src/frangi.cpp.obj
 .PHONY : src/frangi.cpp.obj
 
 src/frangi.i: src/frangi.cpp.i
@@ -181,8 +181,8 @@ src/frangi.i: src/frangi.cpp.i
 
 # target to preprocess a source file
 src/frangi.cpp.i:
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f Hessian\CMakeFiles\LibFrangi.dir\build.make Hessian/CMakeFiles/LibFrangi.dir/src/frangi.cpp.i
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f Hessian\CMakeFiles\Frangi.dir\build.make Hessian/CMakeFiles/Frangi.dir/src/frangi.cpp.i
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Hessian\CMakeFiles\LibFrangi.dir\build.make Hessian/CMakeFiles/LibFrangi.dir/src/frangi.cpp.i
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Hessian\CMakeFiles\Frangi.dir\build.make Hessian/CMakeFiles/Frangi.dir/src/frangi.cpp.i
 .PHONY : src/frangi.cpp.i
 
 src/frangi.s: src/frangi.cpp.s
@@ -190,8 +190,8 @@ src/frangi.s: src/frangi.cpp.s
 
 # target to generate assembly for a file
 src/frangi.cpp.s:
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f Hessian\CMakeFiles\LibFrangi.dir\build.make Hessian/CMakeFiles/LibFrangi.dir/src/frangi.cpp.s
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f Hessian\CMakeFiles\Frangi.dir\build.make Hessian/CMakeFiles/Frangi.dir/src/frangi.cpp.s
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Hessian\CMakeFiles\LibFrangi.dir\build.make Hessian/CMakeFiles/LibFrangi.dir/src/frangi.cpp.s
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Hessian\CMakeFiles\Frangi.dir\build.make Hessian/CMakeFiles/Frangi.dir/src/frangi.cpp.s
 .PHONY : src/frangi.cpp.s
 
 # Help Target
@@ -221,6 +221,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d D:\Git_Project\github\finger-vein\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

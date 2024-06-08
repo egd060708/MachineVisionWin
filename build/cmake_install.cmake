@@ -1,4 +1,4 @@
-# Install script for directory: D:/Git_Project/github/finger-vein
+# Install script for directory: D:/Git_Project/github/MachineVisionWin
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/Git_Project/github/finger-vein/build/Finger/cmake_install.cmake")
-  include("D:/Git_Project/github/finger-vein/build/Hand/cmake_install.cmake")
-  include("D:/Git_Project/github/finger-vein/build/Hessian/cmake_install.cmake")
+  include("D:/Git_Project/github/MachineVisionWin/build/Finger/cmake_install.cmake")
+  include("D:/Git_Project/github/MachineVisionWin/build/Hand/cmake_install.cmake")
+  include("D:/Git_Project/github/MachineVisionWin/build/Hessian/cmake_install.cmake")
 
 endif()
 
@@ -60,6 +60,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "D:/Git_Project/github/finger-vein/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "D:/Git_Project/github/MachineVisionWin/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

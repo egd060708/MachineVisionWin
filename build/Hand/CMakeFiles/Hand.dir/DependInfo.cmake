@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/Git_Project/github/finger-vein/Hand/src/enhance_hand_vein.cpp" "Hand/CMakeFiles/Hand.dir/src/enhance_hand_vein.cpp.obj" "gcc" "Hand/CMakeFiles/Hand.dir/src/enhance_hand_vein.cpp.obj.d"
-  "D:/Git_Project/github/finger-vein/Hand/src/get.cpp" "Hand/CMakeFiles/Hand.dir/src/get.cpp.obj" "gcc" "Hand/CMakeFiles/Hand.dir/src/get.cpp.obj.d"
-  "D:/Git_Project/github/finger-vein/Hand/src/hand_match.cpp" "Hand/CMakeFiles/Hand.dir/src/hand_match.cpp.obj" "gcc" "Hand/CMakeFiles/Hand.dir/src/hand_match.cpp.obj.d"
-  "D:/Git_Project/github/finger-vein/Hand/src/hand_roi.cpp" "Hand/CMakeFiles/Hand.dir/src/hand_roi.cpp.obj" "gcc" "Hand/CMakeFiles/Hand.dir/src/hand_roi.cpp.obj.d"
-  "D:/Git_Project/github/finger-vein/Hand/src/show.cpp" "Hand/CMakeFiles/Hand.dir/src/show.cpp.obj" "gcc" "Hand/CMakeFiles/Hand.dir/src/show.cpp.obj.d"
-  "D:/Git_Project/github/finger-vein/Hand/src/spilt_hand_vein.cpp" "Hand/CMakeFiles/Hand.dir/src/spilt_hand_vein.cpp.obj" "gcc" "Hand/CMakeFiles/Hand.dir/src/spilt_hand_vein.cpp.obj.d"
+  "D:/Git_Project/github/MachineVisionWin/Hand/src/enhance_hand_vein.cpp" "Hand/CMakeFiles/Hand.dir/src/enhance_hand_vein.cpp.obj" "gcc" "Hand/CMakeFiles/Hand.dir/src/enhance_hand_vein.cpp.obj.d"
+  "D:/Git_Project/github/MachineVisionWin/Hand/src/get.cpp" "Hand/CMakeFiles/Hand.dir/src/get.cpp.obj" "gcc" "Hand/CMakeFiles/Hand.dir/src/get.cpp.obj.d"
+  "D:/Git_Project/github/MachineVisionWin/Hand/src/hand_match.cpp" "Hand/CMakeFiles/Hand.dir/src/hand_match.cpp.obj" "gcc" "Hand/CMakeFiles/Hand.dir/src/hand_match.cpp.obj.d"
+  "D:/Git_Project/github/MachineVisionWin/Hand/src/hand_roi.cpp" "Hand/CMakeFiles/Hand.dir/src/hand_roi.cpp.obj" "gcc" "Hand/CMakeFiles/Hand.dir/src/hand_roi.cpp.obj.d"
+  "D:/Git_Project/github/MachineVisionWin/Hand/src/show.cpp" "Hand/CMakeFiles/Hand.dir/src/show.cpp.obj" "gcc" "Hand/CMakeFiles/Hand.dir/src/show.cpp.obj.d"
+  "D:/Git_Project/github/MachineVisionWin/Hand/src/spilt_hand_vein.cpp" "Hand/CMakeFiles/Hand.dir/src/spilt_hand_vein.cpp.obj" "gcc" "Hand/CMakeFiles/Hand.dir/src/spilt_hand_vein.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

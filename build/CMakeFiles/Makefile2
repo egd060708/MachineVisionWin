@@ -53,10 +53,10 @@ RM = D:\usefulTools\Cmake\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Git_Project\github\finger-vein
+CMAKE_SOURCE_DIR = D:\Git_Project\github\MachineVisionWin
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Git_Project\github\finger-vein\build
+CMAKE_BINARY_DIR = D:\Git_Project\github\MachineVisionWin\build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -138,14 +138,14 @@ CMakeFiles/FingerVein.dir/all: Finger/CMakeFiles/Finger.dir/all
 CMakeFiles/FingerVein.dir/all: Hessian/CMakeFiles/LibFrangi.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FingerVein.dir\build.make CMakeFiles/FingerVein.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FingerVein.dir\build.make CMakeFiles/FingerVein.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Git_Project\github\finger-vein\build\CMakeFiles --progress-num=12,13 "Built target FingerVein"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Git_Project\github\MachineVisionWin\build\CMakeFiles --progress-num=12,13 "Built target FingerVein"
 .PHONY : CMakeFiles/FingerVein.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/FingerVein.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git_Project\github\finger-vein\build\CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git_Project\github\MachineVisionWin\build\CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/FingerVein.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git_Project\github\finger-vein\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git_Project\github\MachineVisionWin\build\CMakeFiles 0
 .PHONY : CMakeFiles/FingerVein.dir/rule
 
 # Convenience name for target.
@@ -165,14 +165,14 @@ CMakeFiles/HandVein.dir/all: Hand/CMakeFiles/Hand.dir/all
 CMakeFiles/HandVein.dir/all: Hessian/CMakeFiles/LibFrangi.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandVein.dir\build.make CMakeFiles/HandVein.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandVein.dir\build.make CMakeFiles/HandVein.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Git_Project\github\finger-vein\build\CMakeFiles --progress-num=24,25 "Built target HandVein"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Git_Project\github\MachineVisionWin\build\CMakeFiles --progress-num=24,25 "Built target HandVein"
 .PHONY : CMakeFiles/HandVein.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/HandVein.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git_Project\github\finger-vein\build\CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git_Project\github\MachineVisionWin\build\CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/HandVein.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git_Project\github\finger-vein\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git_Project\github\MachineVisionWin\build\CMakeFiles 0
 .PHONY : CMakeFiles/HandVein.dir/rule
 
 # Convenience name for target.
@@ -191,14 +191,14 @@ CMakeFiles/HandVein.dir/clean:
 Finger/CMakeFiles/Finger.dir/all: Hessian/CMakeFiles/LibFrangi.dir/all
 	$(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/depend
 	$(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Git_Project\github\finger-vein\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target Finger"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Git_Project\github\MachineVisionWin\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target Finger"
 .PHONY : Finger/CMakeFiles/Finger.dir/all
 
 # Build rule for subdir invocation for target.
 Finger/CMakeFiles/Finger.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git_Project\github\finger-vein\build\CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git_Project\github\MachineVisionWin\build\CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Finger/CMakeFiles/Finger.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git_Project\github\finger-vein\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git_Project\github\MachineVisionWin\build\CMakeFiles 0
 .PHONY : Finger/CMakeFiles/Finger.dir/rule
 
 # Convenience name for target.
@@ -217,14 +217,14 @@ Finger/CMakeFiles/Finger.dir/clean:
 Hand/CMakeFiles/Hand.dir/all: Hessian/CMakeFiles/LibFrangi.dir/all
 	$(MAKE) $(MAKESILENT) -f Hand\CMakeFiles\Hand.dir\build.make Hand/CMakeFiles/Hand.dir/depend
 	$(MAKE) $(MAKESILENT) -f Hand\CMakeFiles\Hand.dir\build.make Hand/CMakeFiles/Hand.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Git_Project\github\finger-vein\build\CMakeFiles --progress-num=17,18,19,20,21,22,23 "Built target Hand"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Git_Project\github\MachineVisionWin\build\CMakeFiles --progress-num=17,18,19,20,21,22,23 "Built target Hand"
 .PHONY : Hand/CMakeFiles/Hand.dir/all
 
 # Build rule for subdir invocation for target.
 Hand/CMakeFiles/Hand.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git_Project\github\finger-vein\build\CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git_Project\github\MachineVisionWin\build\CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Hand/CMakeFiles/Hand.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git_Project\github\finger-vein\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git_Project\github\MachineVisionWin\build\CMakeFiles 0
 .PHONY : Hand/CMakeFiles/Hand.dir/rule
 
 # Convenience name for target.
@@ -243,14 +243,14 @@ Hand/CMakeFiles/Hand.dir/clean:
 Hessian/CMakeFiles/LibFrangi.dir/all:
 	$(MAKE) $(MAKESILENT) -f Hessian\CMakeFiles\LibFrangi.dir\build.make Hessian/CMakeFiles/LibFrangi.dir/depend
 	$(MAKE) $(MAKESILENT) -f Hessian\CMakeFiles\LibFrangi.dir\build.make Hessian/CMakeFiles/LibFrangi.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Git_Project\github\finger-vein\build\CMakeFiles --progress-num=26,27 "Built target LibFrangi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Git_Project\github\MachineVisionWin\build\CMakeFiles --progress-num=26,27 "Built target LibFrangi"
 .PHONY : Hessian/CMakeFiles/LibFrangi.dir/all
 
 # Build rule for subdir invocation for target.
 Hessian/CMakeFiles/LibFrangi.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git_Project\github\finger-vein\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git_Project\github\MachineVisionWin\build\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Hessian/CMakeFiles/LibFrangi.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git_Project\github\finger-vein\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git_Project\github\MachineVisionWin\build\CMakeFiles 0
 .PHONY : Hessian/CMakeFiles/LibFrangi.dir/rule
 
 # Convenience name for target.
@@ -269,14 +269,14 @@ Hessian/CMakeFiles/LibFrangi.dir/clean:
 Hessian/CMakeFiles/Frangi.dir/all:
 	$(MAKE) $(MAKESILENT) -f Hessian\CMakeFiles\Frangi.dir\build.make Hessian/CMakeFiles/Frangi.dir/depend
 	$(MAKE) $(MAKESILENT) -f Hessian\CMakeFiles\Frangi.dir\build.make Hessian/CMakeFiles/Frangi.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Git_Project\github\finger-vein\build\CMakeFiles --progress-num=14,15,16 "Built target Frangi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Git_Project\github\MachineVisionWin\build\CMakeFiles --progress-num=14,15,16 "Built target Frangi"
 .PHONY : Hessian/CMakeFiles/Frangi.dir/all
 
 # Build rule for subdir invocation for target.
 Hessian/CMakeFiles/Frangi.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git_Project\github\finger-vein\build\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git_Project\github\MachineVisionWin\build\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Hessian/CMakeFiles/Frangi.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git_Project\github\finger-vein\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git_Project\github\MachineVisionWin\build\CMakeFiles 0
 .PHONY : Hessian/CMakeFiles/Frangi.dir/rule
 
 # Convenience name for target.

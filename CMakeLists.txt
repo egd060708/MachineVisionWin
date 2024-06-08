@@ -1,6 +1,4 @@
 cmake_minimum_required(VERSION 3.5)
-set(CMAKE_C_COMPILER "D:\usefulTools\MinGW\mingw64\bin\gcc.exe")
-set(CMAKE_CXX_COMPILER "D:\usefulTools\MinGW\mingw64\bin\g++.exe")
 project(Vein) #指静脉
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)

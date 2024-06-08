@@ -1,4 +1,4 @@
-# Install script for directory: D:/Git_Project/github/finger-vein/Hand
+# Install script for directory: D:/Git_Project/github/MachineVisionWin/Hand
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

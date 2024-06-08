@@ -9,7 +9,7 @@ int main()
 {
   float mean_score = 0;
   uint32_t cnt = 0;
-  for (int type = 60; type <= 70; type++)
+  for (int type = 73; type <= 82; type++)
   {
     vector<Mat> hand_src;
     vector<Hand> hands;

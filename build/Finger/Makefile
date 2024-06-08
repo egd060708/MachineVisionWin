@@ -56,10 +56,10 @@ RM = D:\usefulTools\Cmake\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Git_Project\github\finger-vein
+CMAKE_SOURCE_DIR = D:\Git_Project\github\MachineVisionWin
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Git_Project\github\finger-vein\build
+CMAKE_BINARY_DIR = D:\Git_Project\github\MachineVisionWin\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d D:\Git_Project\github\finger-vein\build && $(CMAKE_COMMAND) -E cmake_progress_start D:\Git_Project\github\finger-vein\build\CMakeFiles D:\Git_Project\github\finger-vein\build\Finger\\CMakeFiles\progress.marks
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Finger/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git_Project\github\finger-vein\build\CMakeFiles 0
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(CMAKE_COMMAND) -E cmake_progress_start D:\Git_Project\github\MachineVisionWin\build\CMakeFiles D:\Git_Project\github\MachineVisionWin\build\Finger\\CMakeFiles\progress.marks
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Finger/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git_Project\github\MachineVisionWin\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Finger/clean
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Finger/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,22 +102,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Finger/preinstall
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Finger/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Finger/preinstall
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Finger/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d D:\Git_Project\github\finger-vein\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Finger/CMakeFiles/Finger.dir/rule:
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Finger/CMakeFiles/Finger.dir/rule
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Finger/CMakeFiles/Finger.dir/rule
 .PHONY : Finger/CMakeFiles/Finger.dir/rule
 
 # Convenience name for target.
@@ -126,7 +126,7 @@ Finger: Finger/CMakeFiles/Finger.dir/rule
 
 # fast build rule for target.
 Finger/fast:
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/build
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/build
 .PHONY : Finger/fast
 
 src/enhance_finger_vein.obj: src/enhance_finger_vein.cpp.obj
@@ -134,7 +134,7 @@ src/enhance_finger_vein.obj: src/enhance_finger_vein.cpp.obj
 
 # target to build an object file
 src/enhance_finger_vein.cpp.obj:
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/enhance_finger_vein.cpp.obj
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/enhance_finger_vein.cpp.obj
 .PHONY : src/enhance_finger_vein.cpp.obj
 
 src/enhance_finger_vein.i: src/enhance_finger_vein.cpp.i
@@ -142,7 +142,7 @@ src/enhance_finger_vein.i: src/enhance_finger_vein.cpp.i
 
 # target to preprocess a source file
 src/enhance_finger_vein.cpp.i:
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/enhance_finger_vein.cpp.i
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/enhance_finger_vein.cpp.i
 .PHONY : src/enhance_finger_vein.cpp.i
 
 src/enhance_finger_vein.s: src/enhance_finger_vein.cpp.s
@@ -150,7 +150,7 @@ src/enhance_finger_vein.s: src/enhance_finger_vein.cpp.s
 
 # target to generate assembly for a file
 src/enhance_finger_vein.cpp.s:
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/enhance_finger_vein.cpp.s
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/enhance_finger_vein.cpp.s
 .PHONY : src/enhance_finger_vein.cpp.s
 
 src/find_finger_edge.obj: src/find_finger_edge.cpp.obj
@@ -158,7 +158,7 @@ src/find_finger_edge.obj: src/find_finger_edge.cpp.obj
 
 # target to build an object file
 src/find_finger_edge.cpp.obj:
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/find_finger_edge.cpp.obj
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/find_finger_edge.cpp.obj
 .PHONY : src/find_finger_edge.cpp.obj
 
 src/find_finger_edge.i: src/find_finger_edge.cpp.i
@@ -166,7 +166,7 @@ src/find_finger_edge.i: src/find_finger_edge.cpp.i
 
 # target to preprocess a source file
 src/find_finger_edge.cpp.i:
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/find_finger_edge.cpp.i
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/find_finger_edge.cpp.i
 .PHONY : src/find_finger_edge.cpp.i
 
 src/find_finger_edge.s: src/find_finger_edge.cpp.s
@@ -174,7 +174,7 @@ src/find_finger_edge.s: src/find_finger_edge.cpp.s
 
 # target to generate assembly for a file
 src/find_finger_edge.cpp.s:
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/find_finger_edge.cpp.s
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/find_finger_edge.cpp.s
 .PHONY : src/find_finger_edge.cpp.s
 
 src/find_knuckle.obj: src/find_knuckle.cpp.obj
@@ -182,7 +182,7 @@ src/find_knuckle.obj: src/find_knuckle.cpp.obj
 
 # target to build an object file
 src/find_knuckle.cpp.obj:
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/find_knuckle.cpp.obj
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/find_knuckle.cpp.obj
 .PHONY : src/find_knuckle.cpp.obj
 
 src/find_knuckle.i: src/find_knuckle.cpp.i
@@ -190,7 +190,7 @@ src/find_knuckle.i: src/find_knuckle.cpp.i
 
 # target to preprocess a source file
 src/find_knuckle.cpp.i:
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/find_knuckle.cpp.i
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/find_knuckle.cpp.i
 .PHONY : src/find_knuckle.cpp.i
 
 src/find_knuckle.s: src/find_knuckle.cpp.s
@@ -198,7 +198,7 @@ src/find_knuckle.s: src/find_knuckle.cpp.s
 
 # target to generate assembly for a file
 src/find_knuckle.cpp.s:
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/find_knuckle.cpp.s
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/find_knuckle.cpp.s
 .PHONY : src/find_knuckle.cpp.s
 
 src/finger_match.obj: src/finger_match.cpp.obj
@@ -206,7 +206,7 @@ src/finger_match.obj: src/finger_match.cpp.obj
 
 # target to build an object file
 src/finger_match.cpp.obj:
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/finger_match.cpp.obj
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/finger_match.cpp.obj
 .PHONY : src/finger_match.cpp.obj
 
 src/finger_match.i: src/finger_match.cpp.i
@@ -214,7 +214,7 @@ src/finger_match.i: src/finger_match.cpp.i
 
 # target to preprocess a source file
 src/finger_match.cpp.i:
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/finger_match.cpp.i
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/finger_match.cpp.i
 .PHONY : src/finger_match.cpp.i
 
 src/finger_match.s: src/finger_match.cpp.s
@@ -222,7 +222,7 @@ src/finger_match.s: src/finger_match.cpp.s
 
 # target to generate assembly for a file
 src/finger_match.cpp.s:
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/finger_match.cpp.s
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/finger_match.cpp.s
 .PHONY : src/finger_match.cpp.s
 
 src/get.obj: src/get.cpp.obj
@@ -230,7 +230,7 @@ src/get.obj: src/get.cpp.obj
 
 # target to build an object file
 src/get.cpp.obj:
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/get.cpp.obj
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/get.cpp.obj
 .PHONY : src/get.cpp.obj
 
 src/get.i: src/get.cpp.i
@@ -238,7 +238,7 @@ src/get.i: src/get.cpp.i
 
 # target to preprocess a source file
 src/get.cpp.i:
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/get.cpp.i
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/get.cpp.i
 .PHONY : src/get.cpp.i
 
 src/get.s: src/get.cpp.s
@@ -246,7 +246,7 @@ src/get.s: src/get.cpp.s
 
 # target to generate assembly for a file
 src/get.cpp.s:
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/get.cpp.s
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/get.cpp.s
 .PHONY : src/get.cpp.s
 
 src/match.obj: src/match.cpp.obj
@@ -254,7 +254,7 @@ src/match.obj: src/match.cpp.obj
 
 # target to build an object file
 src/match.cpp.obj:
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/match.cpp.obj
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/match.cpp.obj
 .PHONY : src/match.cpp.obj
 
 src/match.i: src/match.cpp.i
@@ -262,7 +262,7 @@ src/match.i: src/match.cpp.i
 
 # target to preprocess a source file
 src/match.cpp.i:
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/match.cpp.i
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/match.cpp.i
 .PHONY : src/match.cpp.i
 
 src/match.s: src/match.cpp.s
@@ -270,7 +270,7 @@ src/match.s: src/match.cpp.s
 
 # target to generate assembly for a file
 src/match.cpp.s:
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/match.cpp.s
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/match.cpp.s
 .PHONY : src/match.cpp.s
 
 src/preprocessing.obj: src/preprocessing.cpp.obj
@@ -278,7 +278,7 @@ src/preprocessing.obj: src/preprocessing.cpp.obj
 
 # target to build an object file
 src/preprocessing.cpp.obj:
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/preprocessing.cpp.obj
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/preprocessing.cpp.obj
 .PHONY : src/preprocessing.cpp.obj
 
 src/preprocessing.i: src/preprocessing.cpp.i
@@ -286,7 +286,7 @@ src/preprocessing.i: src/preprocessing.cpp.i
 
 # target to preprocess a source file
 src/preprocessing.cpp.i:
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/preprocessing.cpp.i
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/preprocessing.cpp.i
 .PHONY : src/preprocessing.cpp.i
 
 src/preprocessing.s: src/preprocessing.cpp.s
@@ -294,7 +294,7 @@ src/preprocessing.s: src/preprocessing.cpp.s
 
 # target to generate assembly for a file
 src/preprocessing.cpp.s:
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/preprocessing.cpp.s
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/preprocessing.cpp.s
 .PHONY : src/preprocessing.cpp.s
 
 src/rotate_finger.obj: src/rotate_finger.cpp.obj
@@ -302,7 +302,7 @@ src/rotate_finger.obj: src/rotate_finger.cpp.obj
 
 # target to build an object file
 src/rotate_finger.cpp.obj:
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/rotate_finger.cpp.obj
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/rotate_finger.cpp.obj
 .PHONY : src/rotate_finger.cpp.obj
 
 src/rotate_finger.i: src/rotate_finger.cpp.i
@@ -310,7 +310,7 @@ src/rotate_finger.i: src/rotate_finger.cpp.i
 
 # target to preprocess a source file
 src/rotate_finger.cpp.i:
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/rotate_finger.cpp.i
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/rotate_finger.cpp.i
 .PHONY : src/rotate_finger.cpp.i
 
 src/rotate_finger.s: src/rotate_finger.cpp.s
@@ -318,7 +318,7 @@ src/rotate_finger.s: src/rotate_finger.cpp.s
 
 # target to generate assembly for a file
 src/rotate_finger.cpp.s:
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/rotate_finger.cpp.s
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/rotate_finger.cpp.s
 .PHONY : src/rotate_finger.cpp.s
 
 src/show.obj: src/show.cpp.obj
@@ -326,7 +326,7 @@ src/show.obj: src/show.cpp.obj
 
 # target to build an object file
 src/show.cpp.obj:
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/show.cpp.obj
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/show.cpp.obj
 .PHONY : src/show.cpp.obj
 
 src/show.i: src/show.cpp.i
@@ -334,7 +334,7 @@ src/show.i: src/show.cpp.i
 
 # target to preprocess a source file
 src/show.cpp.i:
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/show.cpp.i
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/show.cpp.i
 .PHONY : src/show.cpp.i
 
 src/show.s: src/show.cpp.s
@@ -342,7 +342,7 @@ src/show.s: src/show.cpp.s
 
 # target to generate assembly for a file
 src/show.cpp.s:
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/show.cpp.s
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/show.cpp.s
 .PHONY : src/show.cpp.s
 
 src/spilt_finger_vein.obj: src/spilt_finger_vein.cpp.obj
@@ -350,7 +350,7 @@ src/spilt_finger_vein.obj: src/spilt_finger_vein.cpp.obj
 
 # target to build an object file
 src/spilt_finger_vein.cpp.obj:
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/spilt_finger_vein.cpp.obj
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/spilt_finger_vein.cpp.obj
 .PHONY : src/spilt_finger_vein.cpp.obj
 
 src/spilt_finger_vein.i: src/spilt_finger_vein.cpp.i
@@ -358,7 +358,7 @@ src/spilt_finger_vein.i: src/spilt_finger_vein.cpp.i
 
 # target to preprocess a source file
 src/spilt_finger_vein.cpp.i:
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/spilt_finger_vein.cpp.i
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/spilt_finger_vein.cpp.i
 .PHONY : src/spilt_finger_vein.cpp.i
 
 src/spilt_finger_vein.s: src/spilt_finger_vein.cpp.s
@@ -366,7 +366,7 @@ src/spilt_finger_vein.s: src/spilt_finger_vein.cpp.s
 
 # target to generate assembly for a file
 src/spilt_finger_vein.cpp.s:
-	cd /d D:\Git_Project\github\finger-vein\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/spilt_finger_vein.cpp.s
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Finger\CMakeFiles\Finger.dir\build.make Finger/CMakeFiles/Finger.dir/src/spilt_finger_vein.cpp.s
 .PHONY : src/spilt_finger_vein.cpp.s
 
 # Help Target
@@ -419,6 +419,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d D:\Git_Project\github\finger-vein\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

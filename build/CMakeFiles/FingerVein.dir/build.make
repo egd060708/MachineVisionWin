@@ -52,10 +52,10 @@ RM = D:\usefulTools\Cmake\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Git_Project\github\finger-vein
+CMAKE_SOURCE_DIR = D:\Git_Project\github\MachineVisionWin
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Git_Project\github\finger-vein\build
+CMAKE_BINARY_DIR = D:\Git_Project\github\MachineVisionWin\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/FingerVein.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/FingerVein.dir/flags.make
 
 CMakeFiles/FingerVein.dir/fingervein.cpp.obj: CMakeFiles/FingerVein.dir/flags.make
 CMakeFiles/FingerVein.dir/fingervein.cpp.obj: CMakeFiles/FingerVein.dir/includes_CXX.rsp
-CMakeFiles/FingerVein.dir/fingervein.cpp.obj: D:/Git_Project/github/finger-vein/fingervein.cpp
+CMakeFiles/FingerVein.dir/fingervein.cpp.obj: D:/Git_Project/github/MachineVisionWin/fingervein.cpp
 CMakeFiles/FingerVein.dir/fingervein.cpp.obj: CMakeFiles/FingerVein.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Git_Project\github\finger-vein\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/FingerVein.dir/fingervein.cpp.obj"
-	D:\usefulTools\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FingerVein.dir/fingervein.cpp.obj -MF CMakeFiles\FingerVein.dir\fingervein.cpp.obj.d -o CMakeFiles\FingerVein.dir\fingervein.cpp.obj -c D:\Git_Project\github\finger-vein\fingervein.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Git_Project\github\MachineVisionWin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/FingerVein.dir/fingervein.cpp.obj"
+	D:\usefulTools\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FingerVein.dir/fingervein.cpp.obj -MF CMakeFiles\FingerVein.dir\fingervein.cpp.obj.d -o CMakeFiles\FingerVein.dir\fingervein.cpp.obj -c D:\Git_Project\github\MachineVisionWin\fingervein.cpp
 
 CMakeFiles/FingerVein.dir/fingervein.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FingerVein.dir/fingervein.cpp.i"
-	D:\usefulTools\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Git_Project\github\finger-vein\fingervein.cpp > CMakeFiles\FingerVein.dir\fingervein.cpp.i
+	D:\usefulTools\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Git_Project\github\MachineVisionWin\fingervein.cpp > CMakeFiles\FingerVein.dir\fingervein.cpp.i
 
 CMakeFiles/FingerVein.dir/fingervein.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FingerVein.dir/fingervein.cpp.s"
-	D:\usefulTools\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Git_Project\github\finger-vein\fingervein.cpp -o CMakeFiles\FingerVein.dir\fingervein.cpp.s
+	D:\usefulTools\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Git_Project\github\MachineVisionWin\fingervein.cpp -o CMakeFiles\FingerVein.dir\fingervein.cpp.s
 
 # Object files for target FingerVein
 FingerVein_OBJECTS = \
@@ -92,7 +92,7 @@ FingerVein_EXTERNAL_OBJECTS =
 
 FingerVein.exe: CMakeFiles/FingerVein.dir/fingervein.cpp.obj
 FingerVein.exe: CMakeFiles/FingerVein.dir/build.make
-FingerVein.exe: D:/Git_Project/github/finger-vein/libopencv_world460.dll
+FingerVein.exe: D:/Git_Project/github/MachineVisionWin/libopencv_world460.dll
 FingerVein.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_gapi460.dll.a
 FingerVein.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_highgui460.dll.a
 FingerVein.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_ml460.dll.a
@@ -125,7 +125,7 @@ FingerVein.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_imgcode
 FingerVein.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_imgproc460.dll.a
 FingerVein.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_core460.dll.a
 FingerVein.exe: Hessian/libLibFrangi.a
-FingerVein.exe: D:/Git_Project/github/finger-vein/Hessian/../libopencv_world460.dll
+FingerVein.exe: D:/Git_Project/github/MachineVisionWin/Hessian/../libopencv_world460.dll
 FingerVein.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_gapi460.dll.a
 FingerVein.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_highgui460.dll.a
 FingerVein.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_ml460.dll.a
@@ -144,7 +144,7 @@ FingerVein.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_core460
 FingerVein.exe: CMakeFiles/FingerVein.dir/linkLibs.rsp
 FingerVein.exe: CMakeFiles/FingerVein.dir/objects1.rsp
 FingerVein.exe: CMakeFiles/FingerVein.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Git_Project\github\finger-vein\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable FingerVein.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Git_Project\github\MachineVisionWin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable FingerVein.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\FingerVein.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -156,6 +156,6 @@ CMakeFiles/FingerVein.dir/clean:
 .PHONY : CMakeFiles/FingerVein.dir/clean
 
 CMakeFiles/FingerVein.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Git_Project\github\finger-vein D:\Git_Project\github\finger-vein D:\Git_Project\github\finger-vein\build D:\Git_Project\github\finger-vein\build D:\Git_Project\github\finger-vein\build\CMakeFiles\FingerVein.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Git_Project\github\MachineVisionWin D:\Git_Project\github\MachineVisionWin D:\Git_Project\github\MachineVisionWin\build D:\Git_Project\github\MachineVisionWin\build D:\Git_Project\github\MachineVisionWin\build\CMakeFiles\FingerVein.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/FingerVein.dir/depend
 
