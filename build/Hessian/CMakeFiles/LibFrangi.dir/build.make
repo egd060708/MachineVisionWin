@@ -73,15 +73,15 @@ Hessian/CMakeFiles/LibFrangi.dir/src/frangi.cpp.obj: Hessian/CMakeFiles/LibFrang
 Hessian/CMakeFiles/LibFrangi.dir/src/frangi.cpp.obj: D:/Git_Project/github/MachineVisionWin/Hessian/src/frangi.cpp
 Hessian/CMakeFiles/LibFrangi.dir/src/frangi.cpp.obj: Hessian/CMakeFiles/LibFrangi.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Git_Project\github\MachineVisionWin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Hessian/CMakeFiles/LibFrangi.dir/src/frangi.cpp.obj"
-	cd /d D:\Git_Project\github\MachineVisionWin\build\Hessian && D:\usefulTools\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Hessian/CMakeFiles/LibFrangi.dir/src/frangi.cpp.obj -MF CMakeFiles\LibFrangi.dir\src\frangi.cpp.obj.d -o CMakeFiles\LibFrangi.dir\src\frangi.cpp.obj -c D:\Git_Project\github\MachineVisionWin\Hessian\src\frangi.cpp
+	cd /d D:\Git_Project\github\MachineVisionWin\build\Hessian && D:\usefulTools\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Hessian/CMakeFiles/LibFrangi.dir/src/frangi.cpp.obj -MF CMakeFiles\LibFrangi.dir\src\frangi.cpp.obj.d -o CMakeFiles\LibFrangi.dir\src\frangi.cpp.obj -c D:\Git_Project\github\MachineVisionWin\Hessian\src\frangi.cpp
 
 Hessian/CMakeFiles/LibFrangi.dir/src/frangi.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LibFrangi.dir/src/frangi.cpp.i"
-	cd /d D:\Git_Project\github\MachineVisionWin\build\Hessian && D:\usefulTools\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Git_Project\github\MachineVisionWin\Hessian\src\frangi.cpp > CMakeFiles\LibFrangi.dir\src\frangi.cpp.i
+	cd /d D:\Git_Project\github\MachineVisionWin\build\Hessian && D:\usefulTools\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Git_Project\github\MachineVisionWin\Hessian\src\frangi.cpp > CMakeFiles\LibFrangi.dir\src\frangi.cpp.i
 
 Hessian/CMakeFiles/LibFrangi.dir/src/frangi.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LibFrangi.dir/src/frangi.cpp.s"
-	cd /d D:\Git_Project\github\MachineVisionWin\build\Hessian && D:\usefulTools\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Git_Project\github\MachineVisionWin\Hessian\src\frangi.cpp -o CMakeFiles\LibFrangi.dir\src\frangi.cpp.s
+	cd /d D:\Git_Project\github\MachineVisionWin\build\Hessian && D:\usefulTools\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Git_Project\github\MachineVisionWin\Hessian\src\frangi.cpp -o CMakeFiles\LibFrangi.dir\src\frangi.cpp.s
 
 # Object files for target LibFrangi
 LibFrangi_OBJECTS = \

@@ -1,2 +1,0 @@
-D:\usefulTools\MinGW\mingw64\bin\ar.exe qc libHand.a CMakeFiles/Hand.dir/src/enhance_hand_vein.cpp.obj CMakeFiles/Hand.dir/src/get.cpp.obj CMakeFiles/Hand.dir/src/hand_match.cpp.obj CMakeFiles/Hand.dir/src/hand_roi.cpp.obj CMakeFiles/Hand.dir/src/show.cpp.obj CMakeFiles/Hand.dir/src/spilt_hand_vein.cpp.obj
-D:\usefulTools\MinGW\mingw64\bin\ranlib.exe libHand.a

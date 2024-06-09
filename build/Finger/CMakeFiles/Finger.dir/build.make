@@ -73,150 +73,150 @@ Finger/CMakeFiles/Finger.dir/src/enhance_finger_vein.cpp.obj: Finger/CMakeFiles/
 Finger/CMakeFiles/Finger.dir/src/enhance_finger_vein.cpp.obj: D:/Git_Project/github/MachineVisionWin/Finger/src/enhance_finger_vein.cpp
 Finger/CMakeFiles/Finger.dir/src/enhance_finger_vein.cpp.obj: Finger/CMakeFiles/Finger.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Git_Project\github\MachineVisionWin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Finger/CMakeFiles/Finger.dir/src/enhance_finger_vein.cpp.obj"
-	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Finger/CMakeFiles/Finger.dir/src/enhance_finger_vein.cpp.obj -MF CMakeFiles\Finger.dir\src\enhance_finger_vein.cpp.obj.d -o CMakeFiles\Finger.dir\src\enhance_finger_vein.cpp.obj -c D:\Git_Project\github\MachineVisionWin\Finger\src\enhance_finger_vein.cpp
+	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Finger/CMakeFiles/Finger.dir/src/enhance_finger_vein.cpp.obj -MF CMakeFiles\Finger.dir\src\enhance_finger_vein.cpp.obj.d -o CMakeFiles\Finger.dir\src\enhance_finger_vein.cpp.obj -c D:\Git_Project\github\MachineVisionWin\Finger\src\enhance_finger_vein.cpp
 
 Finger/CMakeFiles/Finger.dir/src/enhance_finger_vein.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Finger.dir/src/enhance_finger_vein.cpp.i"
-	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Git_Project\github\MachineVisionWin\Finger\src\enhance_finger_vein.cpp > CMakeFiles\Finger.dir\src\enhance_finger_vein.cpp.i
+	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Git_Project\github\MachineVisionWin\Finger\src\enhance_finger_vein.cpp > CMakeFiles\Finger.dir\src\enhance_finger_vein.cpp.i
 
 Finger/CMakeFiles/Finger.dir/src/enhance_finger_vein.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Finger.dir/src/enhance_finger_vein.cpp.s"
-	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Git_Project\github\MachineVisionWin\Finger\src\enhance_finger_vein.cpp -o CMakeFiles\Finger.dir\src\enhance_finger_vein.cpp.s
+	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Git_Project\github\MachineVisionWin\Finger\src\enhance_finger_vein.cpp -o CMakeFiles\Finger.dir\src\enhance_finger_vein.cpp.s
 
 Finger/CMakeFiles/Finger.dir/src/find_finger_edge.cpp.obj: Finger/CMakeFiles/Finger.dir/flags.make
 Finger/CMakeFiles/Finger.dir/src/find_finger_edge.cpp.obj: Finger/CMakeFiles/Finger.dir/includes_CXX.rsp
 Finger/CMakeFiles/Finger.dir/src/find_finger_edge.cpp.obj: D:/Git_Project/github/MachineVisionWin/Finger/src/find_finger_edge.cpp
 Finger/CMakeFiles/Finger.dir/src/find_finger_edge.cpp.obj: Finger/CMakeFiles/Finger.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Git_Project\github\MachineVisionWin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Finger/CMakeFiles/Finger.dir/src/find_finger_edge.cpp.obj"
-	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Finger/CMakeFiles/Finger.dir/src/find_finger_edge.cpp.obj -MF CMakeFiles\Finger.dir\src\find_finger_edge.cpp.obj.d -o CMakeFiles\Finger.dir\src\find_finger_edge.cpp.obj -c D:\Git_Project\github\MachineVisionWin\Finger\src\find_finger_edge.cpp
+	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Finger/CMakeFiles/Finger.dir/src/find_finger_edge.cpp.obj -MF CMakeFiles\Finger.dir\src\find_finger_edge.cpp.obj.d -o CMakeFiles\Finger.dir\src\find_finger_edge.cpp.obj -c D:\Git_Project\github\MachineVisionWin\Finger\src\find_finger_edge.cpp
 
 Finger/CMakeFiles/Finger.dir/src/find_finger_edge.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Finger.dir/src/find_finger_edge.cpp.i"
-	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Git_Project\github\MachineVisionWin\Finger\src\find_finger_edge.cpp > CMakeFiles\Finger.dir\src\find_finger_edge.cpp.i
+	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Git_Project\github\MachineVisionWin\Finger\src\find_finger_edge.cpp > CMakeFiles\Finger.dir\src\find_finger_edge.cpp.i
 
 Finger/CMakeFiles/Finger.dir/src/find_finger_edge.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Finger.dir/src/find_finger_edge.cpp.s"
-	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Git_Project\github\MachineVisionWin\Finger\src\find_finger_edge.cpp -o CMakeFiles\Finger.dir\src\find_finger_edge.cpp.s
+	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Git_Project\github\MachineVisionWin\Finger\src\find_finger_edge.cpp -o CMakeFiles\Finger.dir\src\find_finger_edge.cpp.s
 
 Finger/CMakeFiles/Finger.dir/src/find_knuckle.cpp.obj: Finger/CMakeFiles/Finger.dir/flags.make
 Finger/CMakeFiles/Finger.dir/src/find_knuckle.cpp.obj: Finger/CMakeFiles/Finger.dir/includes_CXX.rsp
 Finger/CMakeFiles/Finger.dir/src/find_knuckle.cpp.obj: D:/Git_Project/github/MachineVisionWin/Finger/src/find_knuckle.cpp
 Finger/CMakeFiles/Finger.dir/src/find_knuckle.cpp.obj: Finger/CMakeFiles/Finger.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Git_Project\github\MachineVisionWin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Finger/CMakeFiles/Finger.dir/src/find_knuckle.cpp.obj"
-	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Finger/CMakeFiles/Finger.dir/src/find_knuckle.cpp.obj -MF CMakeFiles\Finger.dir\src\find_knuckle.cpp.obj.d -o CMakeFiles\Finger.dir\src\find_knuckle.cpp.obj -c D:\Git_Project\github\MachineVisionWin\Finger\src\find_knuckle.cpp
+	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Finger/CMakeFiles/Finger.dir/src/find_knuckle.cpp.obj -MF CMakeFiles\Finger.dir\src\find_knuckle.cpp.obj.d -o CMakeFiles\Finger.dir\src\find_knuckle.cpp.obj -c D:\Git_Project\github\MachineVisionWin\Finger\src\find_knuckle.cpp
 
 Finger/CMakeFiles/Finger.dir/src/find_knuckle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Finger.dir/src/find_knuckle.cpp.i"
-	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Git_Project\github\MachineVisionWin\Finger\src\find_knuckle.cpp > CMakeFiles\Finger.dir\src\find_knuckle.cpp.i
+	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Git_Project\github\MachineVisionWin\Finger\src\find_knuckle.cpp > CMakeFiles\Finger.dir\src\find_knuckle.cpp.i
 
 Finger/CMakeFiles/Finger.dir/src/find_knuckle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Finger.dir/src/find_knuckle.cpp.s"
-	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Git_Project\github\MachineVisionWin\Finger\src\find_knuckle.cpp -o CMakeFiles\Finger.dir\src\find_knuckle.cpp.s
+	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Git_Project\github\MachineVisionWin\Finger\src\find_knuckle.cpp -o CMakeFiles\Finger.dir\src\find_knuckle.cpp.s
 
 Finger/CMakeFiles/Finger.dir/src/finger_match.cpp.obj: Finger/CMakeFiles/Finger.dir/flags.make
 Finger/CMakeFiles/Finger.dir/src/finger_match.cpp.obj: Finger/CMakeFiles/Finger.dir/includes_CXX.rsp
 Finger/CMakeFiles/Finger.dir/src/finger_match.cpp.obj: D:/Git_Project/github/MachineVisionWin/Finger/src/finger_match.cpp
 Finger/CMakeFiles/Finger.dir/src/finger_match.cpp.obj: Finger/CMakeFiles/Finger.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Git_Project\github\MachineVisionWin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object Finger/CMakeFiles/Finger.dir/src/finger_match.cpp.obj"
-	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Finger/CMakeFiles/Finger.dir/src/finger_match.cpp.obj -MF CMakeFiles\Finger.dir\src\finger_match.cpp.obj.d -o CMakeFiles\Finger.dir\src\finger_match.cpp.obj -c D:\Git_Project\github\MachineVisionWin\Finger\src\finger_match.cpp
+	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Finger/CMakeFiles/Finger.dir/src/finger_match.cpp.obj -MF CMakeFiles\Finger.dir\src\finger_match.cpp.obj.d -o CMakeFiles\Finger.dir\src\finger_match.cpp.obj -c D:\Git_Project\github\MachineVisionWin\Finger\src\finger_match.cpp
 
 Finger/CMakeFiles/Finger.dir/src/finger_match.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Finger.dir/src/finger_match.cpp.i"
-	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Git_Project\github\MachineVisionWin\Finger\src\finger_match.cpp > CMakeFiles\Finger.dir\src\finger_match.cpp.i
+	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Git_Project\github\MachineVisionWin\Finger\src\finger_match.cpp > CMakeFiles\Finger.dir\src\finger_match.cpp.i
 
 Finger/CMakeFiles/Finger.dir/src/finger_match.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Finger.dir/src/finger_match.cpp.s"
-	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Git_Project\github\MachineVisionWin\Finger\src\finger_match.cpp -o CMakeFiles\Finger.dir\src\finger_match.cpp.s
+	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Git_Project\github\MachineVisionWin\Finger\src\finger_match.cpp -o CMakeFiles\Finger.dir\src\finger_match.cpp.s
 
 Finger/CMakeFiles/Finger.dir/src/get.cpp.obj: Finger/CMakeFiles/Finger.dir/flags.make
 Finger/CMakeFiles/Finger.dir/src/get.cpp.obj: Finger/CMakeFiles/Finger.dir/includes_CXX.rsp
 Finger/CMakeFiles/Finger.dir/src/get.cpp.obj: D:/Git_Project/github/MachineVisionWin/Finger/src/get.cpp
 Finger/CMakeFiles/Finger.dir/src/get.cpp.obj: Finger/CMakeFiles/Finger.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Git_Project\github\MachineVisionWin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object Finger/CMakeFiles/Finger.dir/src/get.cpp.obj"
-	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Finger/CMakeFiles/Finger.dir/src/get.cpp.obj -MF CMakeFiles\Finger.dir\src\get.cpp.obj.d -o CMakeFiles\Finger.dir\src\get.cpp.obj -c D:\Git_Project\github\MachineVisionWin\Finger\src\get.cpp
+	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Finger/CMakeFiles/Finger.dir/src/get.cpp.obj -MF CMakeFiles\Finger.dir\src\get.cpp.obj.d -o CMakeFiles\Finger.dir\src\get.cpp.obj -c D:\Git_Project\github\MachineVisionWin\Finger\src\get.cpp
 
 Finger/CMakeFiles/Finger.dir/src/get.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Finger.dir/src/get.cpp.i"
-	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Git_Project\github\MachineVisionWin\Finger\src\get.cpp > CMakeFiles\Finger.dir\src\get.cpp.i
+	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Git_Project\github\MachineVisionWin\Finger\src\get.cpp > CMakeFiles\Finger.dir\src\get.cpp.i
 
 Finger/CMakeFiles/Finger.dir/src/get.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Finger.dir/src/get.cpp.s"
-	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Git_Project\github\MachineVisionWin\Finger\src\get.cpp -o CMakeFiles\Finger.dir\src\get.cpp.s
+	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Git_Project\github\MachineVisionWin\Finger\src\get.cpp -o CMakeFiles\Finger.dir\src\get.cpp.s
 
 Finger/CMakeFiles/Finger.dir/src/match.cpp.obj: Finger/CMakeFiles/Finger.dir/flags.make
 Finger/CMakeFiles/Finger.dir/src/match.cpp.obj: Finger/CMakeFiles/Finger.dir/includes_CXX.rsp
 Finger/CMakeFiles/Finger.dir/src/match.cpp.obj: D:/Git_Project/github/MachineVisionWin/Finger/src/match.cpp
 Finger/CMakeFiles/Finger.dir/src/match.cpp.obj: Finger/CMakeFiles/Finger.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Git_Project\github\MachineVisionWin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object Finger/CMakeFiles/Finger.dir/src/match.cpp.obj"
-	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Finger/CMakeFiles/Finger.dir/src/match.cpp.obj -MF CMakeFiles\Finger.dir\src\match.cpp.obj.d -o CMakeFiles\Finger.dir\src\match.cpp.obj -c D:\Git_Project\github\MachineVisionWin\Finger\src\match.cpp
+	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Finger/CMakeFiles/Finger.dir/src/match.cpp.obj -MF CMakeFiles\Finger.dir\src\match.cpp.obj.d -o CMakeFiles\Finger.dir\src\match.cpp.obj -c D:\Git_Project\github\MachineVisionWin\Finger\src\match.cpp
 
 Finger/CMakeFiles/Finger.dir/src/match.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Finger.dir/src/match.cpp.i"
-	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Git_Project\github\MachineVisionWin\Finger\src\match.cpp > CMakeFiles\Finger.dir\src\match.cpp.i
+	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Git_Project\github\MachineVisionWin\Finger\src\match.cpp > CMakeFiles\Finger.dir\src\match.cpp.i
 
 Finger/CMakeFiles/Finger.dir/src/match.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Finger.dir/src/match.cpp.s"
-	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Git_Project\github\MachineVisionWin\Finger\src\match.cpp -o CMakeFiles\Finger.dir\src\match.cpp.s
+	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Git_Project\github\MachineVisionWin\Finger\src\match.cpp -o CMakeFiles\Finger.dir\src\match.cpp.s
 
 Finger/CMakeFiles/Finger.dir/src/preprocessing.cpp.obj: Finger/CMakeFiles/Finger.dir/flags.make
 Finger/CMakeFiles/Finger.dir/src/preprocessing.cpp.obj: Finger/CMakeFiles/Finger.dir/includes_CXX.rsp
 Finger/CMakeFiles/Finger.dir/src/preprocessing.cpp.obj: D:/Git_Project/github/MachineVisionWin/Finger/src/preprocessing.cpp
 Finger/CMakeFiles/Finger.dir/src/preprocessing.cpp.obj: Finger/CMakeFiles/Finger.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Git_Project\github\MachineVisionWin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object Finger/CMakeFiles/Finger.dir/src/preprocessing.cpp.obj"
-	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Finger/CMakeFiles/Finger.dir/src/preprocessing.cpp.obj -MF CMakeFiles\Finger.dir\src\preprocessing.cpp.obj.d -o CMakeFiles\Finger.dir\src\preprocessing.cpp.obj -c D:\Git_Project\github\MachineVisionWin\Finger\src\preprocessing.cpp
+	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Finger/CMakeFiles/Finger.dir/src/preprocessing.cpp.obj -MF CMakeFiles\Finger.dir\src\preprocessing.cpp.obj.d -o CMakeFiles\Finger.dir\src\preprocessing.cpp.obj -c D:\Git_Project\github\MachineVisionWin\Finger\src\preprocessing.cpp
 
 Finger/CMakeFiles/Finger.dir/src/preprocessing.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Finger.dir/src/preprocessing.cpp.i"
-	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Git_Project\github\MachineVisionWin\Finger\src\preprocessing.cpp > CMakeFiles\Finger.dir\src\preprocessing.cpp.i
+	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Git_Project\github\MachineVisionWin\Finger\src\preprocessing.cpp > CMakeFiles\Finger.dir\src\preprocessing.cpp.i
 
 Finger/CMakeFiles/Finger.dir/src/preprocessing.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Finger.dir/src/preprocessing.cpp.s"
-	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Git_Project\github\MachineVisionWin\Finger\src\preprocessing.cpp -o CMakeFiles\Finger.dir\src\preprocessing.cpp.s
+	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Git_Project\github\MachineVisionWin\Finger\src\preprocessing.cpp -o CMakeFiles\Finger.dir\src\preprocessing.cpp.s
 
 Finger/CMakeFiles/Finger.dir/src/rotate_finger.cpp.obj: Finger/CMakeFiles/Finger.dir/flags.make
 Finger/CMakeFiles/Finger.dir/src/rotate_finger.cpp.obj: Finger/CMakeFiles/Finger.dir/includes_CXX.rsp
 Finger/CMakeFiles/Finger.dir/src/rotate_finger.cpp.obj: D:/Git_Project/github/MachineVisionWin/Finger/src/rotate_finger.cpp
 Finger/CMakeFiles/Finger.dir/src/rotate_finger.cpp.obj: Finger/CMakeFiles/Finger.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Git_Project\github\MachineVisionWin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object Finger/CMakeFiles/Finger.dir/src/rotate_finger.cpp.obj"
-	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Finger/CMakeFiles/Finger.dir/src/rotate_finger.cpp.obj -MF CMakeFiles\Finger.dir\src\rotate_finger.cpp.obj.d -o CMakeFiles\Finger.dir\src\rotate_finger.cpp.obj -c D:\Git_Project\github\MachineVisionWin\Finger\src\rotate_finger.cpp
+	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Finger/CMakeFiles/Finger.dir/src/rotate_finger.cpp.obj -MF CMakeFiles\Finger.dir\src\rotate_finger.cpp.obj.d -o CMakeFiles\Finger.dir\src\rotate_finger.cpp.obj -c D:\Git_Project\github\MachineVisionWin\Finger\src\rotate_finger.cpp
 
 Finger/CMakeFiles/Finger.dir/src/rotate_finger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Finger.dir/src/rotate_finger.cpp.i"
-	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Git_Project\github\MachineVisionWin\Finger\src\rotate_finger.cpp > CMakeFiles\Finger.dir\src\rotate_finger.cpp.i
+	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Git_Project\github\MachineVisionWin\Finger\src\rotate_finger.cpp > CMakeFiles\Finger.dir\src\rotate_finger.cpp.i
 
 Finger/CMakeFiles/Finger.dir/src/rotate_finger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Finger.dir/src/rotate_finger.cpp.s"
-	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Git_Project\github\MachineVisionWin\Finger\src\rotate_finger.cpp -o CMakeFiles\Finger.dir\src\rotate_finger.cpp.s
+	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Git_Project\github\MachineVisionWin\Finger\src\rotate_finger.cpp -o CMakeFiles\Finger.dir\src\rotate_finger.cpp.s
 
 Finger/CMakeFiles/Finger.dir/src/show.cpp.obj: Finger/CMakeFiles/Finger.dir/flags.make
 Finger/CMakeFiles/Finger.dir/src/show.cpp.obj: Finger/CMakeFiles/Finger.dir/includes_CXX.rsp
 Finger/CMakeFiles/Finger.dir/src/show.cpp.obj: D:/Git_Project/github/MachineVisionWin/Finger/src/show.cpp
 Finger/CMakeFiles/Finger.dir/src/show.cpp.obj: Finger/CMakeFiles/Finger.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Git_Project\github\MachineVisionWin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object Finger/CMakeFiles/Finger.dir/src/show.cpp.obj"
-	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Finger/CMakeFiles/Finger.dir/src/show.cpp.obj -MF CMakeFiles\Finger.dir\src\show.cpp.obj.d -o CMakeFiles\Finger.dir\src\show.cpp.obj -c D:\Git_Project\github\MachineVisionWin\Finger\src\show.cpp
+	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Finger/CMakeFiles/Finger.dir/src/show.cpp.obj -MF CMakeFiles\Finger.dir\src\show.cpp.obj.d -o CMakeFiles\Finger.dir\src\show.cpp.obj -c D:\Git_Project\github\MachineVisionWin\Finger\src\show.cpp
 
 Finger/CMakeFiles/Finger.dir/src/show.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Finger.dir/src/show.cpp.i"
-	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Git_Project\github\MachineVisionWin\Finger\src\show.cpp > CMakeFiles\Finger.dir\src\show.cpp.i
+	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Git_Project\github\MachineVisionWin\Finger\src\show.cpp > CMakeFiles\Finger.dir\src\show.cpp.i
 
 Finger/CMakeFiles/Finger.dir/src/show.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Finger.dir/src/show.cpp.s"
-	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Git_Project\github\MachineVisionWin\Finger\src\show.cpp -o CMakeFiles\Finger.dir\src\show.cpp.s
+	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Git_Project\github\MachineVisionWin\Finger\src\show.cpp -o CMakeFiles\Finger.dir\src\show.cpp.s
 
 Finger/CMakeFiles/Finger.dir/src/spilt_finger_vein.cpp.obj: Finger/CMakeFiles/Finger.dir/flags.make
 Finger/CMakeFiles/Finger.dir/src/spilt_finger_vein.cpp.obj: Finger/CMakeFiles/Finger.dir/includes_CXX.rsp
 Finger/CMakeFiles/Finger.dir/src/spilt_finger_vein.cpp.obj: D:/Git_Project/github/MachineVisionWin/Finger/src/spilt_finger_vein.cpp
 Finger/CMakeFiles/Finger.dir/src/spilt_finger_vein.cpp.obj: Finger/CMakeFiles/Finger.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Git_Project\github\MachineVisionWin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object Finger/CMakeFiles/Finger.dir/src/spilt_finger_vein.cpp.obj"
-	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Finger/CMakeFiles/Finger.dir/src/spilt_finger_vein.cpp.obj -MF CMakeFiles\Finger.dir\src\spilt_finger_vein.cpp.obj.d -o CMakeFiles\Finger.dir\src\spilt_finger_vein.cpp.obj -c D:\Git_Project\github\MachineVisionWin\Finger\src\spilt_finger_vein.cpp
+	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Finger/CMakeFiles/Finger.dir/src/spilt_finger_vein.cpp.obj -MF CMakeFiles\Finger.dir\src\spilt_finger_vein.cpp.obj.d -o CMakeFiles\Finger.dir\src\spilt_finger_vein.cpp.obj -c D:\Git_Project\github\MachineVisionWin\Finger\src\spilt_finger_vein.cpp
 
 Finger/CMakeFiles/Finger.dir/src/spilt_finger_vein.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Finger.dir/src/spilt_finger_vein.cpp.i"
-	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Git_Project\github\MachineVisionWin\Finger\src\spilt_finger_vein.cpp > CMakeFiles\Finger.dir\src\spilt_finger_vein.cpp.i
+	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Git_Project\github\MachineVisionWin\Finger\src\spilt_finger_vein.cpp > CMakeFiles\Finger.dir\src\spilt_finger_vein.cpp.i
 
 Finger/CMakeFiles/Finger.dir/src/spilt_finger_vein.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Finger.dir/src/spilt_finger_vein.cpp.s"
-	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Git_Project\github\MachineVisionWin\Finger\src\spilt_finger_vein.cpp -o CMakeFiles\Finger.dir\src\spilt_finger_vein.cpp.s
+	cd /d D:\Git_Project\github\MachineVisionWin\build\Finger && D:\usefulTools\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Git_Project\github\MachineVisionWin\Finger\src\spilt_finger_vein.cpp -o CMakeFiles\Finger.dir\src\spilt_finger_vein.cpp.s
 
 # Object files for target Finger
 Finger_OBJECTS = \

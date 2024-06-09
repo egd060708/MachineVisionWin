@@ -41,4 +41,6 @@ int main()
   Mat img2 = finger_2.get_finger_vein_split().clone();
   double score = finger_match(img1, img2);
   cout << "score: " << score;
+  system("pause");
+  return 0;
 }

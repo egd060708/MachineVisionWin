@@ -1,13 +1,13 @@
 D:/Git_Project/github/MachineVisionWin/build/CMakeFiles/FingerVein.dir
-D:/Git_Project/github/MachineVisionWin/build/CMakeFiles/HandVein.dir
+D:/Git_Project/github/MachineVisionWin/build/CMakeFiles/PalmVein.dir
 D:/Git_Project/github/MachineVisionWin/build/CMakeFiles/edit_cache.dir
 D:/Git_Project/github/MachineVisionWin/build/CMakeFiles/rebuild_cache.dir
 D:/Git_Project/github/MachineVisionWin/build/Finger/CMakeFiles/Finger.dir
 D:/Git_Project/github/MachineVisionWin/build/Finger/CMakeFiles/edit_cache.dir
 D:/Git_Project/github/MachineVisionWin/build/Finger/CMakeFiles/rebuild_cache.dir
-D:/Git_Project/github/MachineVisionWin/build/Hand/CMakeFiles/Hand.dir
-D:/Git_Project/github/MachineVisionWin/build/Hand/CMakeFiles/edit_cache.dir
-D:/Git_Project/github/MachineVisionWin/build/Hand/CMakeFiles/rebuild_cache.dir
+D:/Git_Project/github/MachineVisionWin/build/Palm/CMakeFiles/Palm.dir
+D:/Git_Project/github/MachineVisionWin/build/Palm/CMakeFiles/edit_cache.dir
+D:/Git_Project/github/MachineVisionWin/build/Palm/CMakeFiles/rebuild_cache.dir
 D:/Git_Project/github/MachineVisionWin/build/Hessian/CMakeFiles/LibFrangi.dir
 D:/Git_Project/github/MachineVisionWin/build/Hessian/CMakeFiles/Frangi.dir
 D:/Git_Project/github/MachineVisionWin/build/Hessian/CMakeFiles/edit_cache.dir

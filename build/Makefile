@@ -129,17 +129,17 @@ FingerVein/fast:
 .PHONY : FingerVein/fast
 
 #=============================================================================
-# Target rules for targets named HandVein
+# Target rules for targets named PalmVein
 
 # Build rule for target.
-HandVein: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 HandVein
-.PHONY : HandVein
+PalmVein: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PalmVein
+.PHONY : PalmVein
 
 # fast build rule for target.
-HandVein/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandVein.dir\build.make CMakeFiles/HandVein.dir/build
-.PHONY : HandVein/fast
+PalmVein/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PalmVein.dir\build.make CMakeFiles/PalmVein.dir/build
+.PHONY : PalmVein/fast
 
 #=============================================================================
 # Target rules for targets named Finger
@@ -155,17 +155,17 @@ Finger/fast:
 .PHONY : Finger/fast
 
 #=============================================================================
-# Target rules for targets named Hand
+# Target rules for targets named Palm
 
 # Build rule for target.
-Hand: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Hand
-.PHONY : Hand
+Palm: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Palm
+.PHONY : Palm
 
 # fast build rule for target.
-Hand/fast:
-	$(MAKE) $(MAKESILENT) -f Hand\CMakeFiles\Hand.dir\build.make Hand/CMakeFiles/Hand.dir/build
-.PHONY : Hand/fast
+Palm/fast:
+	$(MAKE) $(MAKESILENT) -f Palm\CMakeFiles\Palm.dir\build.make Palm/CMakeFiles/Palm.dir/build
+.PHONY : Palm/fast
 
 #=============================================================================
 # Target rules for targets named LibFrangi
@@ -217,29 +217,29 @@ fingervein.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FingerVein.dir\build.make CMakeFiles/FingerVein.dir/fingervein.cpp.s
 .PHONY : fingervein.cpp.s
 
-handvein.obj: handvein.cpp.obj
-.PHONY : handvein.obj
+palmvein.obj: palmvein.cpp.obj
+.PHONY : palmvein.obj
 
 # target to build an object file
-handvein.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandVein.dir\build.make CMakeFiles/HandVein.dir/handvein.cpp.obj
-.PHONY : handvein.cpp.obj
+palmvein.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PalmVein.dir\build.make CMakeFiles/PalmVein.dir/palmvein.cpp.obj
+.PHONY : palmvein.cpp.obj
 
-handvein.i: handvein.cpp.i
-.PHONY : handvein.i
+palmvein.i: palmvein.cpp.i
+.PHONY : palmvein.i
 
 # target to preprocess a source file
-handvein.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandVein.dir\build.make CMakeFiles/HandVein.dir/handvein.cpp.i
-.PHONY : handvein.cpp.i
+palmvein.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PalmVein.dir\build.make CMakeFiles/PalmVein.dir/palmvein.cpp.i
+.PHONY : palmvein.cpp.i
 
-handvein.s: handvein.cpp.s
-.PHONY : handvein.s
+palmvein.s: palmvein.cpp.s
+.PHONY : palmvein.s
 
 # target to generate assembly for a file
-handvein.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandVein.dir\build.make CMakeFiles/HandVein.dir/handvein.cpp.s
-.PHONY : handvein.cpp.s
+palmvein.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PalmVein.dir\build.make CMakeFiles/PalmVein.dir/palmvein.cpp.s
+.PHONY : palmvein.cpp.s
 
 # Help Target
 help:
@@ -252,15 +252,15 @@ help:
 	@echo ... Finger
 	@echo ... FingerVein
 	@echo ... Frangi
-	@echo ... Hand
-	@echo ... HandVein
 	@echo ... LibFrangi
+	@echo ... Palm
+	@echo ... PalmVein
 	@echo ... fingervein.obj
 	@echo ... fingervein.i
 	@echo ... fingervein.s
-	@echo ... handvein.obj
-	@echo ... handvein.i
-	@echo ... handvein.s
+	@echo ... palmvein.obj
+	@echo ... palmvein.i
+	@echo ... palmvein.s
 .PHONY : help
 
 

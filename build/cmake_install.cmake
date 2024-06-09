@@ -40,7 +40,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("D:/Git_Project/github/MachineVisionWin/build/Finger/cmake_install.cmake")
-  include("D:/Git_Project/github/MachineVisionWin/build/Hand/cmake_install.cmake")
+  include("D:/Git_Project/github/MachineVisionWin/build/Palm/cmake_install.cmake")
   include("D:/Git_Project/github/MachineVisionWin/build/Hessian/cmake_install.cmake")
 
 endif()

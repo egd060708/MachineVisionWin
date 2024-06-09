@@ -73,30 +73,30 @@ Hessian/CMakeFiles/Frangi.dir/src/frangi.cpp.obj: Hessian/CMakeFiles/Frangi.dir/
 Hessian/CMakeFiles/Frangi.dir/src/frangi.cpp.obj: D:/Git_Project/github/MachineVisionWin/Hessian/src/frangi.cpp
 Hessian/CMakeFiles/Frangi.dir/src/frangi.cpp.obj: Hessian/CMakeFiles/Frangi.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Git_Project\github\MachineVisionWin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Hessian/CMakeFiles/Frangi.dir/src/frangi.cpp.obj"
-	cd /d D:\Git_Project\github\MachineVisionWin\build\Hessian && D:\usefulTools\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Hessian/CMakeFiles/Frangi.dir/src/frangi.cpp.obj -MF CMakeFiles\Frangi.dir\src\frangi.cpp.obj.d -o CMakeFiles\Frangi.dir\src\frangi.cpp.obj -c D:\Git_Project\github\MachineVisionWin\Hessian\src\frangi.cpp
+	cd /d D:\Git_Project\github\MachineVisionWin\build\Hessian && D:\usefulTools\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Hessian/CMakeFiles/Frangi.dir/src/frangi.cpp.obj -MF CMakeFiles\Frangi.dir\src\frangi.cpp.obj.d -o CMakeFiles\Frangi.dir\src\frangi.cpp.obj -c D:\Git_Project\github\MachineVisionWin\Hessian\src\frangi.cpp
 
 Hessian/CMakeFiles/Frangi.dir/src/frangi.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Frangi.dir/src/frangi.cpp.i"
-	cd /d D:\Git_Project\github\MachineVisionWin\build\Hessian && D:\usefulTools\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Git_Project\github\MachineVisionWin\Hessian\src\frangi.cpp > CMakeFiles\Frangi.dir\src\frangi.cpp.i
+	cd /d D:\Git_Project\github\MachineVisionWin\build\Hessian && D:\usefulTools\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Git_Project\github\MachineVisionWin\Hessian\src\frangi.cpp > CMakeFiles\Frangi.dir\src\frangi.cpp.i
 
 Hessian/CMakeFiles/Frangi.dir/src/frangi.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Frangi.dir/src/frangi.cpp.s"
-	cd /d D:\Git_Project\github\MachineVisionWin\build\Hessian && D:\usefulTools\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Git_Project\github\MachineVisionWin\Hessian\src\frangi.cpp -o CMakeFiles\Frangi.dir\src\frangi.cpp.s
+	cd /d D:\Git_Project\github\MachineVisionWin\build\Hessian && D:\usefulTools\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Git_Project\github\MachineVisionWin\Hessian\src\frangi.cpp -o CMakeFiles\Frangi.dir\src\frangi.cpp.s
 
 Hessian/CMakeFiles/Frangi.dir/main.cpp.obj: Hessian/CMakeFiles/Frangi.dir/flags.make
 Hessian/CMakeFiles/Frangi.dir/main.cpp.obj: Hessian/CMakeFiles/Frangi.dir/includes_CXX.rsp
 Hessian/CMakeFiles/Frangi.dir/main.cpp.obj: D:/Git_Project/github/MachineVisionWin/Hessian/main.cpp
 Hessian/CMakeFiles/Frangi.dir/main.cpp.obj: Hessian/CMakeFiles/Frangi.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Git_Project\github\MachineVisionWin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Hessian/CMakeFiles/Frangi.dir/main.cpp.obj"
-	cd /d D:\Git_Project\github\MachineVisionWin\build\Hessian && D:\usefulTools\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Hessian/CMakeFiles/Frangi.dir/main.cpp.obj -MF CMakeFiles\Frangi.dir\main.cpp.obj.d -o CMakeFiles\Frangi.dir\main.cpp.obj -c D:\Git_Project\github\MachineVisionWin\Hessian\main.cpp
+	cd /d D:\Git_Project\github\MachineVisionWin\build\Hessian && D:\usefulTools\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Hessian/CMakeFiles/Frangi.dir/main.cpp.obj -MF CMakeFiles\Frangi.dir\main.cpp.obj.d -o CMakeFiles\Frangi.dir\main.cpp.obj -c D:\Git_Project\github\MachineVisionWin\Hessian\main.cpp
 
 Hessian/CMakeFiles/Frangi.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Frangi.dir/main.cpp.i"
-	cd /d D:\Git_Project\github\MachineVisionWin\build\Hessian && D:\usefulTools\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Git_Project\github\MachineVisionWin\Hessian\main.cpp > CMakeFiles\Frangi.dir\main.cpp.i
+	cd /d D:\Git_Project\github\MachineVisionWin\build\Hessian && D:\usefulTools\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Git_Project\github\MachineVisionWin\Hessian\main.cpp > CMakeFiles\Frangi.dir\main.cpp.i
 
 Hessian/CMakeFiles/Frangi.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Frangi.dir/main.cpp.s"
-	cd /d D:\Git_Project\github\MachineVisionWin\build\Hessian && D:\usefulTools\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Git_Project\github\MachineVisionWin\Hessian\main.cpp -o CMakeFiles\Frangi.dir\main.cpp.s
+	cd /d D:\Git_Project\github\MachineVisionWin\build\Hessian && D:\usefulTools\MinGW\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Git_Project\github\MachineVisionWin\Hessian\main.cpp -o CMakeFiles\Frangi.dir\main.cpp.s
 
 # Object files for target Frangi
 Frangi_OBJECTS = \
@@ -111,18 +111,55 @@ Hessian/Frangi.exe: Hessian/CMakeFiles/Frangi.dir/main.cpp.obj
 Hessian/Frangi.exe: Hessian/CMakeFiles/Frangi.dir/build.make
 Hessian/Frangi.exe: D:/Git_Project/github/MachineVisionWin/Hessian/../libopencv_world460.dll
 Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_gapi460.dll.a
-Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_highgui460.dll.a
-Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_ml460.dll.a
-Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_objdetect460.dll.a
-Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_photo460.dll.a
 Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_stitching460.dll.a
+Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_aruco460.dll.a
+Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_barcode460.dll.a
+Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_bgsegm460.dll.a
+Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_bioinspired460.dll.a
+Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_ccalib460.dll.a
+Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_dnn_objdetect460.dll.a
+Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_dnn_superres460.dll.a
+Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_dpm460.dll.a
+Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_face460.dll.a
+Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_fuzzy460.dll.a
+Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_hfs460.dll.a
+Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_img_hash460.dll.a
+Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_intensity_transform460.dll.a
+Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_line_descriptor460.dll.a
+Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_mcc460.dll.a
+Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_quality460.dll.a
+Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_rapid460.dll.a
+Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_reg460.dll.a
+Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_rgbd460.dll.a
+Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_saliency460.dll.a
+Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_stereo460.dll.a
+Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_structured_light460.dll.a
+Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_superres460.dll.a
+Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_surface_matching460.dll.a
+Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_tracking460.dll.a
+Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_videostab460.dll.a
+Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_wechat_qrcode460.dll.a
+Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_xfeatures2d460.dll.a
+Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_xobjdetect460.dll.a
+Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_xphoto460.dll.a
+Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_shape460.dll.a
+Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_highgui460.dll.a
+Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_datasets460.dll.a
+Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_plot460.dll.a
+Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_text460.dll.a
+Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_ml460.dll.a
+Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_phase_unwrapping460.dll.a
+Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_optflow460.dll.a
+Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_ximgproc460.dll.a
 Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_video460.dll.a
 Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_videoio460.dll.a
 Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_imgcodecs460.dll.a
-Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_dnn460.dll.a
+Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_objdetect460.dll.a
 Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_calib3d460.dll.a
+Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_dnn460.dll.a
 Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_features2d460.dll.a
 Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_flann460.dll.a
+Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_photo460.dll.a
 Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_imgproc460.dll.a
 Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_core460.dll.a
 Hessian/Frangi.exe: Hessian/CMakeFiles/Frangi.dir/linkLibs.rsp

@@ -63,23 +63,23 @@ CMAKE_BINARY_DIR = D:\Git_Project\github\MachineVisionWin\build
 
 # The main recursive "all" target.
 all: CMakeFiles/FingerVein.dir/all
-all: CMakeFiles/HandVein.dir/all
+all: CMakeFiles/PalmVein.dir/all
 all: Finger/all
-all: Hand/all
+all: Palm/all
 all: Hessian/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: Finger/preinstall
-preinstall: Hand/preinstall
+preinstall: Palm/preinstall
 preinstall: Hessian/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/FingerVein.dir/clean
-clean: CMakeFiles/HandVein.dir/clean
+clean: CMakeFiles/PalmVein.dir/clean
 clean: Finger/clean
-clean: Hand/clean
+clean: Palm/clean
 clean: Hessian/clean
 .PHONY : clean
 
@@ -99,21 +99,6 @@ Finger/clean: Finger/CMakeFiles/Finger.dir/clean
 .PHONY : Finger/clean
 
 #=============================================================================
-# Directory level rules for directory Hand
-
-# Recursive "all" directory target.
-Hand/all: Hand/CMakeFiles/Hand.dir/all
-.PHONY : Hand/all
-
-# Recursive "preinstall" directory target.
-Hand/preinstall:
-.PHONY : Hand/preinstall
-
-# Recursive "clean" directory target.
-Hand/clean: Hand/CMakeFiles/Hand.dir/clean
-.PHONY : Hand/clean
-
-#=============================================================================
 # Directory level rules for directory Hessian
 
 # Recursive "all" directory target.
@@ -129,6 +114,21 @@ Hessian/preinstall:
 Hessian/clean: Hessian/CMakeFiles/LibFrangi.dir/clean
 Hessian/clean: Hessian/CMakeFiles/Frangi.dir/clean
 .PHONY : Hessian/clean
+
+#=============================================================================
+# Directory level rules for directory Palm
+
+# Recursive "all" directory target.
+Palm/all: Palm/CMakeFiles/Palm.dir/all
+.PHONY : Palm/all
+
+# Recursive "preinstall" directory target.
+Palm/preinstall:
+.PHONY : Palm/preinstall
+
+# Recursive "clean" directory target.
+Palm/clean: Palm/CMakeFiles/Palm.dir/clean
+.PHONY : Palm/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/FingerVein.dir
@@ -158,31 +158,31 @@ CMakeFiles/FingerVein.dir/clean:
 .PHONY : CMakeFiles/FingerVein.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/HandVein.dir
+# Target rules for target CMakeFiles/PalmVein.dir
 
 # All Build rule for target.
-CMakeFiles/HandVein.dir/all: Hand/CMakeFiles/Hand.dir/all
-CMakeFiles/HandVein.dir/all: Hessian/CMakeFiles/LibFrangi.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandVein.dir\build.make CMakeFiles/HandVein.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandVein.dir\build.make CMakeFiles/HandVein.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Git_Project\github\MachineVisionWin\build\CMakeFiles --progress-num=24,25 "Built target HandVein"
-.PHONY : CMakeFiles/HandVein.dir/all
+CMakeFiles/PalmVein.dir/all: Hessian/CMakeFiles/LibFrangi.dir/all
+CMakeFiles/PalmVein.dir/all: Palm/CMakeFiles/Palm.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PalmVein.dir\build.make CMakeFiles/PalmVein.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PalmVein.dir\build.make CMakeFiles/PalmVein.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Git_Project\github\MachineVisionWin\build\CMakeFiles --progress-num=26,27 "Built target PalmVein"
+.PHONY : CMakeFiles/PalmVein.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/HandVein.dir/rule: cmake_check_build_system
+CMakeFiles/PalmVein.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git_Project\github\MachineVisionWin\build\CMakeFiles 11
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/HandVein.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/PalmVein.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git_Project\github\MachineVisionWin\build\CMakeFiles 0
-.PHONY : CMakeFiles/HandVein.dir/rule
+.PHONY : CMakeFiles/PalmVein.dir/rule
 
 # Convenience name for target.
-HandVein: CMakeFiles/HandVein.dir/rule
-.PHONY : HandVein
+PalmVein: CMakeFiles/PalmVein.dir/rule
+.PHONY : PalmVein
 
 # clean rule for target.
-CMakeFiles/HandVein.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandVein.dir\build.make CMakeFiles/HandVein.dir/clean
-.PHONY : CMakeFiles/HandVein.dir/clean
+CMakeFiles/PalmVein.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PalmVein.dir\build.make CMakeFiles/PalmVein.dir/clean
+.PHONY : CMakeFiles/PalmVein.dir/clean
 
 #=============================================================================
 # Target rules for target Finger/CMakeFiles/Finger.dir
@@ -211,30 +211,30 @@ Finger/CMakeFiles/Finger.dir/clean:
 .PHONY : Finger/CMakeFiles/Finger.dir/clean
 
 #=============================================================================
-# Target rules for target Hand/CMakeFiles/Hand.dir
+# Target rules for target Palm/CMakeFiles/Palm.dir
 
 # All Build rule for target.
-Hand/CMakeFiles/Hand.dir/all: Hessian/CMakeFiles/LibFrangi.dir/all
-	$(MAKE) $(MAKESILENT) -f Hand\CMakeFiles\Hand.dir\build.make Hand/CMakeFiles/Hand.dir/depend
-	$(MAKE) $(MAKESILENT) -f Hand\CMakeFiles\Hand.dir\build.make Hand/CMakeFiles/Hand.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Git_Project\github\MachineVisionWin\build\CMakeFiles --progress-num=17,18,19,20,21,22,23 "Built target Hand"
-.PHONY : Hand/CMakeFiles/Hand.dir/all
+Palm/CMakeFiles/Palm.dir/all: Hessian/CMakeFiles/LibFrangi.dir/all
+	$(MAKE) $(MAKESILENT) -f Palm\CMakeFiles\Palm.dir\build.make Palm/CMakeFiles/Palm.dir/depend
+	$(MAKE) $(MAKESILENT) -f Palm\CMakeFiles\Palm.dir\build.make Palm/CMakeFiles/Palm.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Git_Project\github\MachineVisionWin\build\CMakeFiles --progress-num=19,20,21,22,23,24,25 "Built target Palm"
+.PHONY : Palm/CMakeFiles/Palm.dir/all
 
 # Build rule for subdir invocation for target.
-Hand/CMakeFiles/Hand.dir/rule: cmake_check_build_system
+Palm/CMakeFiles/Palm.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git_Project\github\MachineVisionWin\build\CMakeFiles 9
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Hand/CMakeFiles/Hand.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Palm/CMakeFiles/Palm.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git_Project\github\MachineVisionWin\build\CMakeFiles 0
-.PHONY : Hand/CMakeFiles/Hand.dir/rule
+.PHONY : Palm/CMakeFiles/Palm.dir/rule
 
 # Convenience name for target.
-Hand: Hand/CMakeFiles/Hand.dir/rule
-.PHONY : Hand
+Palm: Palm/CMakeFiles/Palm.dir/rule
+.PHONY : Palm
 
 # clean rule for target.
-Hand/CMakeFiles/Hand.dir/clean:
-	$(MAKE) $(MAKESILENT) -f Hand\CMakeFiles\Hand.dir\build.make Hand/CMakeFiles/Hand.dir/clean
-.PHONY : Hand/CMakeFiles/Hand.dir/clean
+Palm/CMakeFiles/Palm.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Palm\CMakeFiles\Palm.dir\build.make Palm/CMakeFiles/Palm.dir/clean
+.PHONY : Palm/CMakeFiles/Palm.dir/clean
 
 #=============================================================================
 # Target rules for target Hessian/CMakeFiles/LibFrangi.dir
@@ -243,7 +243,7 @@ Hand/CMakeFiles/Hand.dir/clean:
 Hessian/CMakeFiles/LibFrangi.dir/all:
 	$(MAKE) $(MAKESILENT) -f Hessian\CMakeFiles\LibFrangi.dir\build.make Hessian/CMakeFiles/LibFrangi.dir/depend
 	$(MAKE) $(MAKESILENT) -f Hessian\CMakeFiles\LibFrangi.dir\build.make Hessian/CMakeFiles/LibFrangi.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Git_Project\github\MachineVisionWin\build\CMakeFiles --progress-num=26,27 "Built target LibFrangi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Git_Project\github\MachineVisionWin\build\CMakeFiles --progress-num=17,18 "Built target LibFrangi"
 .PHONY : Hessian/CMakeFiles/LibFrangi.dir/all
 
 # Build rule for subdir invocation for target.
