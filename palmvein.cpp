@@ -2,9 +2,13 @@
 #include "opencv2/opencv.hpp"
 #include "Palm.h"
 #include "opencv2/plot.hpp"
+#include <string>
 
 using namespace std;
 using namespace cv;
+
+#define PLOT_HEIGHT
+#define PLOT_WIDTH
 
 int main()
 {
@@ -19,7 +23,7 @@ int main()
     vector<Mat> palm_src;
     vector<Palm> palms;
 
-    for (int i = 1; i <= 30; i++)
+    for (int i = 1; i <= 10; i++)
     {
       char temp[100];
       sprintf(temp, "../data/Palms/%d/%d_%d.bmp", type, type, i);
@@ -72,24 +76,46 @@ int main()
   Mat mat_y(1, temp_scores.size(), CV_64F);
   for (int i = 0; i < temp_scores.size(); i++)
   {
-    mat_x.at<float>(0, i) = temp_cnt[i];
-    mat_y.at<float>(0, i) = temp_scores[i];
+    mat_x.at<double>(0, i) = temp_cnt[i];
+    mat_y.at<double>(0, i) = -temp_scores[i];
+    // cout << temp_cnt[i] << ":  " << temp_scores[i] << endl;
   }
-  Mat plot_result;
+  // 绘图基础参数配置
+  int width = 800;
+  int height = 600;
+  double y_max = 1.2;
+  double step = 0.1;
 
+  // 创建Plot2d对象
   Ptr<plot::Plot2d> plot = plot::Plot2d::create(mat_x, mat_y);
-  plot->render(plot_result);
-  imshow("plot 2d data in default way!", plot_result);
-  // 自定义参数
-  plot->setShowText(false);
-  plot->setShowGrid(false);
-  plot->setPlotBackgroundColor(Scalar(255, 200, 200));
-  plot->setPlotLineColor(Scalar(255, 0, 0));
-  plot->setPlotLineWidth(2);
-  plot->setInvertOrientation(true); // 左右颠倒绘制
-  plot->render(plot_result);        // 根据参数进行渲染
 
-  imshow("The plot rendered with some of custom visualization options", plot_result);
+  // 设置图表属性
+  plot->setPlotSize(width,height);
+  // plot->setShowGrid(true);
+  // plot->setShowText(true);
+  plot->setPlotBackgroundColor(Scalar(255, 255, 255)); // 白色背景
+  plot->setPlotLineColor(Scalar(0, 0, 255));           // 蓝色线条
+  plot->setPlotLineWidth(2);                           // 线条宽度
+  plot->setPlotAxisColor(Scalar(0, 0, 0));
+  plot->setMinY(-y_max); // Y轴最小值
+  plot->setMaxY(0);      // Y轴最大值
+  plot->setMinX(0);
+  plot->setMaxX(temp_scores.size());
+
+  // 绘制图表并显示(相当于把plot的配置数据打包成一个矩阵)
+  Mat plot_result;
+  plot->render(plot_result);
+  int devide_num = int(y_max*10) / int(step*10);
+  // 添加图表标题和坐标轴标签
+  putText(plot_result, "Score Line", Point(50, 30), FONT_HERSHEY_PLAIN, 1, Scalar(0, 0, 255), 1.5);
+  for (int i = 1; i <= (devide_num - 1); i++)
+  {
+    putText(plot_result, "-", Point(0, height - 1 - i * height / devide_num + 0.005 * height), FONT_HERSHEY_PLAIN, 1, Scalar(0, 0, 0), 1);
+    putText(plot_result, to_string(i * step), Point(10, height - 1 - i * height / devide_num + 0.005 * height), FONT_HERSHEY_PLAIN, 1, Scalar(0, 0, 0), 1);
+  }
+
+  // 显示图表
+  imshow("Plot", plot_result);
   waitKey(0);
   system("pause");
   return 0;

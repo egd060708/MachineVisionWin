@@ -134,8 +134,8 @@ Palm/clean: Palm/CMakeFiles/Palm.dir/clean
 # Target rules for target CMakeFiles/FingerVein.dir
 
 # All Build rule for target.
-CMakeFiles/FingerVein.dir/all: Finger/CMakeFiles/Finger.dir/all
 CMakeFiles/FingerVein.dir/all: Hessian/CMakeFiles/LibFrangi.dir/all
+CMakeFiles/FingerVein.dir/all: Finger/CMakeFiles/Finger.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FingerVein.dir\build.make CMakeFiles/FingerVein.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FingerVein.dir\build.make CMakeFiles/FingerVein.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Git_Project\github\MachineVisionWin\build\CMakeFiles --progress-num=12,13 "Built target FingerVein"
