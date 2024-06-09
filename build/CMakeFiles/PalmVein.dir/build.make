@@ -92,8 +92,11 @@ PalmVein_EXTERNAL_OBJECTS =
 
 PalmVein.exe: CMakeFiles/PalmVein.dir/palmvein.cpp.obj
 PalmVein.exe: CMakeFiles/PalmVein.dir/build.make
-PalmVein.exe: D:/Git_Project/github/MachineVisionWin/libopencv_world460.dll
-PalmVein.exe: D:/Git_Project/github/MachineVisionWin/opencv_plot460.dll
+PalmVein.exe: D:/Git_Project/github/MachineVisionWin/libopencv_plot460.dll
+PalmVein.exe: D:/Git_Project/github/MachineVisionWin/libopencv_imgproc460.dll
+PalmVein.exe: D:/Git_Project/github/MachineVisionWin/libopencv_highgui460.dll
+PalmVein.exe: D:/Git_Project/github/MachineVisionWin/libopencv_core460.dll
+PalmVein.exe: D:/Git_Project/github/MachineVisionWin/libopencv_imgcodecs460.dll
 PalmVein.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_gapi460.dll.a
 PalmVein.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_stitching460.dll.a
 PalmVein.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_aruco460.dll.a
@@ -200,7 +203,6 @@ PalmVein.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_photo460.
 PalmVein.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_imgproc460.dll.a
 PalmVein.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_core460.dll.a
 PalmVein.exe: Hessian/libLibFrangi.a
-PalmVein.exe: D:/Git_Project/github/MachineVisionWin/Hessian/../libopencv_world460.dll
 PalmVein.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_gapi460.dll.a
 PalmVein.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_stitching460.dll.a
 PalmVein.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_aruco460.dll.a

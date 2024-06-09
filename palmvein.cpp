@@ -18,7 +18,7 @@ int main()
   vector<float> temp_scores;
   vector<float> temp_cnt;
   // 从数据目录读取图片
-  for (int type = 73; type <= 73; type++)
+  for (int type = 73; type <= 74; type++)
   {
     vector<Mat> palm_src;
     vector<Palm> palms;

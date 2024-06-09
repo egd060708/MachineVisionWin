@@ -92,8 +92,11 @@ FingerVein_EXTERNAL_OBJECTS =
 
 FingerVein.exe: CMakeFiles/FingerVein.dir/fingervein.cpp.obj
 FingerVein.exe: CMakeFiles/FingerVein.dir/build.make
-FingerVein.exe: D:/Git_Project/github/MachineVisionWin/libopencv_world460.dll
-FingerVein.exe: D:/Git_Project/github/MachineVisionWin/opencv_plot460.dll
+FingerVein.exe: D:/Git_Project/github/MachineVisionWin/libopencv_plot460.dll
+FingerVein.exe: D:/Git_Project/github/MachineVisionWin/libopencv_imgproc460.dll
+FingerVein.exe: D:/Git_Project/github/MachineVisionWin/libopencv_highgui460.dll
+FingerVein.exe: D:/Git_Project/github/MachineVisionWin/libopencv_core460.dll
+FingerVein.exe: D:/Git_Project/github/MachineVisionWin/libopencv_imgcodecs460.dll
 FingerVein.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_gapi460.dll.a
 FingerVein.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_stitching460.dll.a
 FingerVein.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_aruco460.dll.a
@@ -200,7 +203,6 @@ FingerVein.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_photo46
 FingerVein.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_imgproc460.dll.a
 FingerVein.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_core460.dll.a
 FingerVein.exe: Hessian/libLibFrangi.a
-FingerVein.exe: D:/Git_Project/github/MachineVisionWin/Hessian/../libopencv_world460.dll
 FingerVein.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_gapi460.dll.a
 FingerVein.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_stitching460.dll.a
 FingerVein.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_aruco460.dll.a

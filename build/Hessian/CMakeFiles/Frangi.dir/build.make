@@ -109,7 +109,6 @@ Frangi_EXTERNAL_OBJECTS =
 Hessian/Frangi.exe: Hessian/CMakeFiles/Frangi.dir/src/frangi.cpp.obj
 Hessian/Frangi.exe: Hessian/CMakeFiles/Frangi.dir/main.cpp.obj
 Hessian/Frangi.exe: Hessian/CMakeFiles/Frangi.dir/build.make
-Hessian/Frangi.exe: D:/Git_Project/github/MachineVisionWin/Hessian/../libopencv_world460.dll
 Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_gapi460.dll.a
 Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_stitching460.dll.a
 Hessian/Frangi.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_aruco460.dll.a

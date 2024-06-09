@@ -1,28 +1,19 @@
 {
+    "version": "2.0.0",
     "tasks": [
         {
-            "type": "cppbuild",
-            "label": "数字图像处理C++编译",
-            "command": "D:\\usefulTools\\MinGW\\mingw64\\bin\\g++.exe",
-            "args": [
-                "-fdiagnostics-color=always",
-                "-g",
-                "${file}",
-                "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
-            ],
-            "options": {
-                "cwd": "${fileDirname}"
-            },
-            "problemMatcher": [
-                "$gcc"
-            ],
+            "label": "make build",
+            "type": "shell",
+            "command": "cd ./build ;mingw32-make -j 4",
             "group": {
                 "kind": "build",
                 "isDefault": true
-            },
-            "detail": "调试器生成的任务。"
+            }
+        },
+        {
+            "label": "clean",
+            "type": "shell",
+            "command": "make clean"
         }
-    ],
-    "version": "2.0.0"
+    ]
 }

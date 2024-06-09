@@ -1,5 +1,5 @@
 find_package(OpenCV REQUIRED)
-link_libraries(${CMAKE_CURRENT_SOURCE_DIR}/../libopencv_world460.dll)
+# link_libraries(${CMAKE_CURRENT_SOURCE_DIR}/../libopencv_world460.dll)
 
 aux_source_directory(src FINGER_DIRS)
 add_library(LibFrangi STATIC ${FINGER_DIRS} )
