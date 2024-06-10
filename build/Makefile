@@ -177,7 +177,7 @@ LibFrangi: cmake_check_build_system
 
 # fast build rule for target.
 LibFrangi/fast:
-	$(MAKE) $(MAKESILENT) -f Hessian\CMakeFiles\LibFrangi.dir\build.make Hessian/CMakeFiles/LibFrangi.dir/build
+	$(MAKE) $(MAKESILENT) -f FrangiFilter\CMakeFiles\LibFrangi.dir\build.make FrangiFilter/CMakeFiles/LibFrangi.dir/build
 .PHONY : LibFrangi/fast
 
 #=============================================================================
@@ -190,7 +190,7 @@ Frangi: cmake_check_build_system
 
 # fast build rule for target.
 Frangi/fast:
-	$(MAKE) $(MAKESILENT) -f Hessian\CMakeFiles\Frangi.dir\build.make Hessian/CMakeFiles/Frangi.dir/build
+	$(MAKE) $(MAKESILENT) -f FrangiFilter\CMakeFiles\Frangi.dir\build.make FrangiFilter/CMakeFiles/Frangi.dir/build
 .PHONY : Frangi/fast
 
 fingervein.obj: fingervein.cpp.obj

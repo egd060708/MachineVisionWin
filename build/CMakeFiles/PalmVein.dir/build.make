@@ -202,7 +202,7 @@ PalmVein.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_xphoto460
 PalmVein.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_photo460.dll.a
 PalmVein.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_imgproc460.dll.a
 PalmVein.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_core460.dll.a
-PalmVein.exe: Hessian/libLibFrangi.a
+PalmVein.exe: FrangiFilter/libLibFrangi.a
 PalmVein.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_gapi460.dll.a
 PalmVein.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_stitching460.dll.a
 PalmVein.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_aruco460.dll.a

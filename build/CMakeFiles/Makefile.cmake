@@ -9,7 +9,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "D:/Git_Project/github/MachineVisionWin/CMakeLists.txt"
   "D:/Git_Project/github/MachineVisionWin/Finger/CMakeLists.txt"
-  "D:/Git_Project/github/MachineVisionWin/Hessian/CMakeLists.txt"
+  "D:/Git_Project/github/MachineVisionWin/FrangiFilter/CMakeLists.txt"
   "D:/Git_Project/github/MachineVisionWin/Palm/CMakeLists.txt"
   "CMakeFiles/3.30.0-rc1/CMakeCCompiler.cmake"
   "CMakeFiles/3.30.0-rc1/CMakeCXXCompiler.cmake"
@@ -55,7 +55,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "Finger/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Palm/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Hessian/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "FrangiFilter/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -64,6 +64,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/PalmVein.dir/DependInfo.cmake"
   "Finger/CMakeFiles/Finger.dir/DependInfo.cmake"
   "Palm/CMakeFiles/Palm.dir/DependInfo.cmake"
-  "Hessian/CMakeFiles/LibFrangi.dir/DependInfo.cmake"
-  "Hessian/CMakeFiles/Frangi.dir/DependInfo.cmake"
+  "FrangiFilter/CMakeFiles/LibFrangi.dir/DependInfo.cmake"
+  "FrangiFilter/CMakeFiles/Frangi.dir/DependInfo.cmake"
   )

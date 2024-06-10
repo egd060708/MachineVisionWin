@@ -3,7 +3,7 @@
 
 Finger/CMakeFiles/Finger.dir/src/enhance_finger_vein.cpp.obj: D:/Git_Project/github/MachineVisionWin/Finger/src/enhance_finger_vein.cpp \
   D:/Git_Project/github/MachineVisionWin/Finger/include/Finger.h \
-  D:/Git_Project/github/MachineVisionWin/Hessian/include/frangi.h \
+  D:/Git_Project/github/MachineVisionWin/FrangiFilter/include/frangi.h \
   D:/Libraries/opencv/opencv/build/x64/MinGW/opencv2/opencv_modules.hpp \
   D:/Libraries/opencv/opencv/sources/include/opencv2/opencv.hpp \
   D:/Libraries/opencv/opencv/sources/modules/calib3d/include/opencv2/calib3d.hpp \
@@ -345,7 +345,7 @@ Finger/CMakeFiles/Finger.dir/src/enhance_finger_vein.cpp.obj: D:/Git_Project/git
 
 Finger/CMakeFiles/Finger.dir/src/find_finger_edge.cpp.obj: D:/Git_Project/github/MachineVisionWin/Finger/src/find_finger_edge.cpp \
   D:/Git_Project/github/MachineVisionWin/Finger/include/Finger.h \
-  D:/Git_Project/github/MachineVisionWin/Hessian/include/frangi.h \
+  D:/Git_Project/github/MachineVisionWin/FrangiFilter/include/frangi.h \
   D:/Libraries/opencv/opencv/build/x64/MinGW/opencv2/opencv_modules.hpp \
   D:/Libraries/opencv/opencv/sources/include/opencv2/opencv.hpp \
   D:/Libraries/opencv/opencv/sources/modules/calib3d/include/opencv2/calib3d.hpp \
@@ -687,7 +687,7 @@ Finger/CMakeFiles/Finger.dir/src/find_finger_edge.cpp.obj: D:/Git_Project/github
 
 Finger/CMakeFiles/Finger.dir/src/find_knuckle.cpp.obj: D:/Git_Project/github/MachineVisionWin/Finger/src/find_knuckle.cpp \
   D:/Git_Project/github/MachineVisionWin/Finger/include/Finger.h \
-  D:/Git_Project/github/MachineVisionWin/Hessian/include/frangi.h \
+  D:/Git_Project/github/MachineVisionWin/FrangiFilter/include/frangi.h \
   D:/Libraries/opencv/opencv/build/x64/MinGW/opencv2/opencv_modules.hpp \
   D:/Libraries/opencv/opencv/sources/include/opencv2/opencv.hpp \
   D:/Libraries/opencv/opencv/sources/modules/calib3d/include/opencv2/calib3d.hpp \
@@ -1029,7 +1029,7 @@ Finger/CMakeFiles/Finger.dir/src/find_knuckle.cpp.obj: D:/Git_Project/github/Mac
 
 Finger/CMakeFiles/Finger.dir/src/finger_match.cpp.obj: D:/Git_Project/github/MachineVisionWin/Finger/src/finger_match.cpp \
   D:/Git_Project/github/MachineVisionWin/Finger/include/Finger.h \
-  D:/Git_Project/github/MachineVisionWin/Hessian/include/frangi.h \
+  D:/Git_Project/github/MachineVisionWin/FrangiFilter/include/frangi.h \
   D:/Libraries/opencv/opencv/build/x64/MinGW/opencv2/opencv_modules.hpp \
   D:/Libraries/opencv/opencv/sources/include/opencv2/opencv.hpp \
   D:/Libraries/opencv/opencv/sources/modules/calib3d/include/opencv2/calib3d.hpp \
@@ -1371,7 +1371,7 @@ Finger/CMakeFiles/Finger.dir/src/finger_match.cpp.obj: D:/Git_Project/github/Mac
 
 Finger/CMakeFiles/Finger.dir/src/get.cpp.obj: D:/Git_Project/github/MachineVisionWin/Finger/src/get.cpp \
   D:/Git_Project/github/MachineVisionWin/Finger/include/Finger.h \
-  D:/Git_Project/github/MachineVisionWin/Hessian/include/frangi.h \
+  D:/Git_Project/github/MachineVisionWin/FrangiFilter/include/frangi.h \
   D:/Libraries/opencv/opencv/build/x64/MinGW/opencv2/opencv_modules.hpp \
   D:/Libraries/opencv/opencv/sources/include/opencv2/opencv.hpp \
   D:/Libraries/opencv/opencv/sources/modules/calib3d/include/opencv2/calib3d.hpp \
@@ -1713,7 +1713,7 @@ Finger/CMakeFiles/Finger.dir/src/get.cpp.obj: D:/Git_Project/github/MachineVisio
 
 Finger/CMakeFiles/Finger.dir/src/match.cpp.obj: D:/Git_Project/github/MachineVisionWin/Finger/src/match.cpp \
   D:/Git_Project/github/MachineVisionWin/Finger/include/Finger.h \
-  D:/Git_Project/github/MachineVisionWin/Hessian/include/frangi.h \
+  D:/Git_Project/github/MachineVisionWin/FrangiFilter/include/frangi.h \
   D:/Libraries/opencv/opencv/build/x64/MinGW/opencv2/opencv_modules.hpp \
   D:/Libraries/opencv/opencv/sources/include/opencv2/opencv.hpp \
   D:/Libraries/opencv/opencv/sources/modules/calib3d/include/opencv2/calib3d.hpp \
@@ -2055,7 +2055,7 @@ Finger/CMakeFiles/Finger.dir/src/match.cpp.obj: D:/Git_Project/github/MachineVis
 
 Finger/CMakeFiles/Finger.dir/src/preprocessing.cpp.obj: D:/Git_Project/github/MachineVisionWin/Finger/src/preprocessing.cpp \
   D:/Git_Project/github/MachineVisionWin/Finger/include/Finger.h \
-  D:/Git_Project/github/MachineVisionWin/Hessian/include/frangi.h \
+  D:/Git_Project/github/MachineVisionWin/FrangiFilter/include/frangi.h \
   D:/Libraries/opencv/opencv/build/x64/MinGW/opencv2/opencv_modules.hpp \
   D:/Libraries/opencv/opencv/sources/include/opencv2/opencv.hpp \
   D:/Libraries/opencv/opencv/sources/modules/calib3d/include/opencv2/calib3d.hpp \
@@ -2397,7 +2397,7 @@ Finger/CMakeFiles/Finger.dir/src/preprocessing.cpp.obj: D:/Git_Project/github/Ma
 
 Finger/CMakeFiles/Finger.dir/src/rotate_finger.cpp.obj: D:/Git_Project/github/MachineVisionWin/Finger/src/rotate_finger.cpp \
   D:/Git_Project/github/MachineVisionWin/Finger/include/Finger.h \
-  D:/Git_Project/github/MachineVisionWin/Hessian/include/frangi.h \
+  D:/Git_Project/github/MachineVisionWin/FrangiFilter/include/frangi.h \
   D:/Libraries/opencv/opencv/build/x64/MinGW/opencv2/opencv_modules.hpp \
   D:/Libraries/opencv/opencv/sources/include/opencv2/opencv.hpp \
   D:/Libraries/opencv/opencv/sources/modules/calib3d/include/opencv2/calib3d.hpp \
@@ -2739,7 +2739,7 @@ Finger/CMakeFiles/Finger.dir/src/rotate_finger.cpp.obj: D:/Git_Project/github/Ma
 
 Finger/CMakeFiles/Finger.dir/src/show.cpp.obj: D:/Git_Project/github/MachineVisionWin/Finger/src/show.cpp \
   D:/Git_Project/github/MachineVisionWin/Finger/include/Finger.h \
-  D:/Git_Project/github/MachineVisionWin/Hessian/include/frangi.h \
+  D:/Git_Project/github/MachineVisionWin/FrangiFilter/include/frangi.h \
   D:/Libraries/opencv/opencv/build/x64/MinGW/opencv2/opencv_modules.hpp \
   D:/Libraries/opencv/opencv/sources/include/opencv2/opencv.hpp \
   D:/Libraries/opencv/opencv/sources/modules/calib3d/include/opencv2/calib3d.hpp \
@@ -3081,7 +3081,7 @@ Finger/CMakeFiles/Finger.dir/src/show.cpp.obj: D:/Git_Project/github/MachineVisi
 
 Finger/CMakeFiles/Finger.dir/src/spilt_finger_vein.cpp.obj: D:/Git_Project/github/MachineVisionWin/Finger/src/spilt_finger_vein.cpp \
   D:/Git_Project/github/MachineVisionWin/Finger/include/Finger.h \
-  D:/Git_Project/github/MachineVisionWin/Hessian/include/frangi.h \
+  D:/Git_Project/github/MachineVisionWin/FrangiFilter/include/frangi.h \
   D:/Libraries/opencv/opencv/build/x64/MinGW/opencv2/opencv_modules.hpp \
   D:/Libraries/opencv/opencv/sources/include/opencv2/opencv.hpp \
   D:/Libraries/opencv/opencv/sources/modules/calib3d/include/opencv2/calib3d.hpp \
@@ -3446,7 +3446,9 @@ D:/usefulTools/MinGW/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h:
 
 D:/Libraries/opencv/opencv/sources/modules/core/include/opencv2/core.hpp:
 
-D:/Git_Project/github/MachineVisionWin/Hessian/include/frangi.h:
+D:/usefulTools/MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/type_traits:
+
+D:/Git_Project/github/MachineVisionWin/FrangiFilter/include/frangi.h:
 
 D:/Libraries/opencv/opencv/build/x64/MinGW/opencv2/opencv_modules.hpp:
 
@@ -4027,8 +4029,6 @@ D:/Git_Project/github/MachineVisionWin/Finger/src/spilt_finger_vein.cpp:
 D:/usefulTools/MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/riemann_zeta.tcc:
 
 D:/usefulTools/MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/special_function_util.h:
-
-D:/usefulTools/MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/type_traits:
 
 D:/usefulTools/MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/typeinfo:
 

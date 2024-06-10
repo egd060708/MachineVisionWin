@@ -25,7 +25,7 @@ int main()
     for (int i = 1; i <= 10; i++)
     {
       char temp[100];
-      sprintf(temp, "../data/Palms/%d/%d_%d.bmp", type, type, i);
+      sprintf(temp, "../picture/Palms/%d/%d_%d.bmp", type, type, i);
       palm_src.push_back(Mat(imread(temp)));
     }
 

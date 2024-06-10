@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d D:\Git_Project\github\MachineVisionWin\build && $(CMAKE_COMMAND) -E cmake_progress_start D:\Git_Project\github\MachineVisionWin\build\CMakeFiles D:\Git_Project\github\MachineVisionWin\build\Hessian\\CMakeFiles\progress.marks
-	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Hessian/all
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(CMAKE_COMMAND) -E cmake_progress_start D:\Git_Project\github\MachineVisionWin\build\CMakeFiles D:\Git_Project\github\MachineVisionWin\build\FrangiFilter\\CMakeFiles\progress.marks
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 FrangiFilter/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Git_Project\github\MachineVisionWin\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Hessian/clean
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 FrangiFilter/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,12 +102,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Hessian/preinstall
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 FrangiFilter/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Hessian/preinstall
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 FrangiFilter/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
@@ -116,31 +116,31 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-Hessian/CMakeFiles/LibFrangi.dir/rule:
-	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Hessian/CMakeFiles/LibFrangi.dir/rule
-.PHONY : Hessian/CMakeFiles/LibFrangi.dir/rule
+FrangiFilter/CMakeFiles/LibFrangi.dir/rule:
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 FrangiFilter/CMakeFiles/LibFrangi.dir/rule
+.PHONY : FrangiFilter/CMakeFiles/LibFrangi.dir/rule
 
 # Convenience name for target.
-LibFrangi: Hessian/CMakeFiles/LibFrangi.dir/rule
+LibFrangi: FrangiFilter/CMakeFiles/LibFrangi.dir/rule
 .PHONY : LibFrangi
 
 # fast build rule for target.
 LibFrangi/fast:
-	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Hessian\CMakeFiles\LibFrangi.dir\build.make Hessian/CMakeFiles/LibFrangi.dir/build
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f FrangiFilter\CMakeFiles\LibFrangi.dir\build.make FrangiFilter/CMakeFiles/LibFrangi.dir/build
 .PHONY : LibFrangi/fast
 
 # Convenience name for target.
-Hessian/CMakeFiles/Frangi.dir/rule:
-	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Hessian/CMakeFiles/Frangi.dir/rule
-.PHONY : Hessian/CMakeFiles/Frangi.dir/rule
+FrangiFilter/CMakeFiles/Frangi.dir/rule:
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 FrangiFilter/CMakeFiles/Frangi.dir/rule
+.PHONY : FrangiFilter/CMakeFiles/Frangi.dir/rule
 
 # Convenience name for target.
-Frangi: Hessian/CMakeFiles/Frangi.dir/rule
+Frangi: FrangiFilter/CMakeFiles/Frangi.dir/rule
 .PHONY : Frangi
 
 # fast build rule for target.
 Frangi/fast:
-	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Hessian\CMakeFiles\Frangi.dir\build.make Hessian/CMakeFiles/Frangi.dir/build
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f FrangiFilter\CMakeFiles\Frangi.dir\build.make FrangiFilter/CMakeFiles/Frangi.dir/build
 .PHONY : Frangi/fast
 
 main.obj: main.cpp.obj
@@ -148,7 +148,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Hessian\CMakeFiles\Frangi.dir\build.make Hessian/CMakeFiles/Frangi.dir/main.cpp.obj
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f FrangiFilter\CMakeFiles\Frangi.dir\build.make FrangiFilter/CMakeFiles/Frangi.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -156,7 +156,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Hessian\CMakeFiles\Frangi.dir\build.make Hessian/CMakeFiles/Frangi.dir/main.cpp.i
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f FrangiFilter\CMakeFiles\Frangi.dir\build.make FrangiFilter/CMakeFiles/Frangi.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -164,7 +164,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Hessian\CMakeFiles\Frangi.dir\build.make Hessian/CMakeFiles/Frangi.dir/main.cpp.s
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f FrangiFilter\CMakeFiles\Frangi.dir\build.make FrangiFilter/CMakeFiles/Frangi.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 src/frangi.obj: src/frangi.cpp.obj
@@ -172,8 +172,8 @@ src/frangi.obj: src/frangi.cpp.obj
 
 # target to build an object file
 src/frangi.cpp.obj:
-	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Hessian\CMakeFiles\LibFrangi.dir\build.make Hessian/CMakeFiles/LibFrangi.dir/src/frangi.cpp.obj
-	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Hessian\CMakeFiles\Frangi.dir\build.make Hessian/CMakeFiles/Frangi.dir/src/frangi.cpp.obj
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f FrangiFilter\CMakeFiles\LibFrangi.dir\build.make FrangiFilter/CMakeFiles/LibFrangi.dir/src/frangi.cpp.obj
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f FrangiFilter\CMakeFiles\Frangi.dir\build.make FrangiFilter/CMakeFiles/Frangi.dir/src/frangi.cpp.obj
 .PHONY : src/frangi.cpp.obj
 
 src/frangi.i: src/frangi.cpp.i
@@ -181,8 +181,8 @@ src/frangi.i: src/frangi.cpp.i
 
 # target to preprocess a source file
 src/frangi.cpp.i:
-	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Hessian\CMakeFiles\LibFrangi.dir\build.make Hessian/CMakeFiles/LibFrangi.dir/src/frangi.cpp.i
-	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Hessian\CMakeFiles\Frangi.dir\build.make Hessian/CMakeFiles/Frangi.dir/src/frangi.cpp.i
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f FrangiFilter\CMakeFiles\LibFrangi.dir\build.make FrangiFilter/CMakeFiles/LibFrangi.dir/src/frangi.cpp.i
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f FrangiFilter\CMakeFiles\Frangi.dir\build.make FrangiFilter/CMakeFiles/Frangi.dir/src/frangi.cpp.i
 .PHONY : src/frangi.cpp.i
 
 src/frangi.s: src/frangi.cpp.s
@@ -190,8 +190,8 @@ src/frangi.s: src/frangi.cpp.s
 
 # target to generate assembly for a file
 src/frangi.cpp.s:
-	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Hessian\CMakeFiles\LibFrangi.dir\build.make Hessian/CMakeFiles/LibFrangi.dir/src/frangi.cpp.s
-	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f Hessian\CMakeFiles\Frangi.dir\build.make Hessian/CMakeFiles/Frangi.dir/src/frangi.cpp.s
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f FrangiFilter\CMakeFiles\LibFrangi.dir\build.make FrangiFilter/CMakeFiles/LibFrangi.dir/src/frangi.cpp.s
+	cd /d D:\Git_Project\github\MachineVisionWin\build && $(MAKE) $(MAKESILENT) -f FrangiFilter\CMakeFiles\Frangi.dir\build.make FrangiFilter/CMakeFiles/Frangi.dir/src/frangi.cpp.s
 .PHONY : src/frangi.cpp.s
 
 # Help Target

@@ -202,7 +202,7 @@ FingerVein.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_xphoto4
 FingerVein.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_photo460.dll.a
 FingerVein.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_imgproc460.dll.a
 FingerVein.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_core460.dll.a
-FingerVein.exe: Hessian/libLibFrangi.a
+FingerVein.exe: FrangiFilter/libLibFrangi.a
 FingerVein.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_gapi460.dll.a
 FingerVein.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_stitching460.dll.a
 FingerVein.exe: D:/Libraries/opencv/opencv/build/x64/MinGW/lib/libopencv_aruco460.dll.a

@@ -1,4 +1,4 @@
-# Install script for directory: D:/Git_Project/github/MachineVisionWin/Hessian
+# Install script for directory: D:/Git_Project/github/MachineVisionWin/FrangiFilter
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

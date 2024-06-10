@@ -21,42 +21,12 @@ void on_Trackbar_THRESH_BINARY_roi(int, void *)
 	imshow("THRESH_BINARY", temp);
 }
 
-//
-// int scale_int =1 ;
-// Mat temp_palm_cut ;
-// void on_Trackbar_palm_cut(int, void *) {
-//  Mat temp =temp_palm_cut.clone() ;
-//  double temp_scale = double(scale_int)/100 ;
-//  int row_end_temp = (temp.rows-palm_center.y)*cut_scale+palm_center.y-1 ;
-//  temp_roi.rowRange(0 , row_end);
-//  imshow("temp_roi",temp_roi) ;
-//  waitKey(0) ;
-//  Mat temp=temp_palm_cut.rowRange(0 , );
-//  cv::threshold(temp_palm_cut, temp, thresh_threshold, 255, THRESH_BINARY);
-//  {
-//    cout << "thresh_threshold_split" << thresh_threshold << endl;
-//    imshow("THRESH_BINARY", temp);
-//
-//  }
-//}
-
 void Palm::palm_roi_process()
 {
-	// imshow("palm_src", this->palm_src);
-	// waitKey(1);
-
 	// 转灰度图
 	Mat temp_roi;
 	cvtColor(this->palm_src, temp_roi, COLOR_BGR2GRAY);
-
-	//  temp_binary_roi=temp_roi.clone() ;
-	//  namedWindow("THRESH_BINARY",WINDOW_AUTOSIZE) ;
-	//   createTrackbar("thresh", "THRESH_BINARY", &thresh_threshold  , 255, on_Trackbar_THRESH_BINARY);
-	//  on_Trackbar_THRESH_BINARY(0, 0);
-
 	cv::threshold(temp_roi, temp_roi, 39, 255, THRESH_BINARY);
-	// imshow("palm_BINARY", temp_roi);
-	// waitKey(0);
 
 	// 轮廓查找
 	vector<vector<cv::Point2i>> contours;
@@ -77,17 +47,13 @@ void Palm::palm_roi_process()
 				max_contour_index = i;
 			}
 		}
-		// cout << "num of contours: " << contours.size() << endl;
-		// cout << "max area of contours: " << max_area << endl;
 		temp_roi = 0;
 		drawContours(temp_roi, contours, max_contour_index, Scalar(255), -1);
-		// imshow("palm_Mask", temp_roi);
-		// waitKey(1);
 	}
 
 	Point palm_center;
 	int maxdist = 0;
-	// 寻找掌心，认为距离轮廓最远的点为掌心
+	// 寻找掌心，最大内切圆的中心，也就是距离圆轮廓最远的为掌心位置
 	{
 		int dist = 0;
 		for (int i = 0; i < temp_roi.cols; i++)
@@ -111,11 +77,6 @@ void Palm::palm_roi_process()
 		waitKey(1);
 	}
 
-	//   temp_palm_cut=temp_roi.clone() ;
-	//  namedWindow("PalmCut",WINDOW_AUTOSIZE) ;
-	//   createTrackbar("scale", "PalmCut", &scale_int  , 255, on_Trackbar_palm_cut);
-	//   on_Trackbar_palm_cut(0, 0);
-
 	// 手腕剔除
 	{
 		double cut_scale = 0.8;
@@ -125,8 +86,6 @@ void Palm::palm_roi_process()
 		cv::Mat kernel = cv::getStructuringElement(cv::MORPH_RECT, cv::Size(7, 7));
 		// 开运算
 		cv::morphologyEx(temp_roi, temp_roi, cv::MORPH_OPEN, kernel);
-		// imshow("temp_palmcut", temp_roi);
-		// waitKey(0);
 	}
 
 	vector<cv::Point2i> target_contour;
@@ -286,13 +245,6 @@ void Palm::palm_roi_process()
 				}
 			}
 		}
-
-		// cout << calculateDistance(fingerRoot[0], fingerRoot[1]) << endl;
-		// cout << calculateDistance(fingerRoot[2], fingerRoot[1]) << endl;
-		// for (auto point : fingerRoot)
-		// {
-		// 	cout << "fingerRoot Point: " << point << endl;
-		// }
 	}
 	// 从原图中提取ROI
 	{
@@ -314,10 +266,10 @@ void Palm::palm_roi_process()
 		Point2i rect_org_point = fingerRoot[0];
 		rect_org_point.x -= 0.15 * calculateDistance(fingerRoot[0], fingerRoot[2]);
 
-		if(rect_org_point.x + width > temp_img.cols)
+		if (rect_org_point.x + width > temp_img.cols)
 			width = height = temp_img.cols - rect_org_point.x;
 
-		if(rect_org_point.y + height > temp_img.rows)
+		if (rect_org_point.y + height > temp_img.rows)
 			width = height = temp_img.rows - rect_org_point.y;
 
 		Rect palm_roi_rect(rect_org_point.x, rect_org_point.y, width, height);

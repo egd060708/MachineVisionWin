@@ -7,7 +7,7 @@ set(CMAKE_BUILD_TYPE Debug)
 add_subdirectory(Finger)
 add_subdirectory(Palm)
 # add_subdirectory(Math)
-add_subdirectory(Hessian)
+add_subdirectory(FrangiFilter)
 
 find_package(OpenCV REQUIRED)
 # link_libraries(${CMAKE_CURRENT_SOURCE_DIR}/libopencv_world460.dll)

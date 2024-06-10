@@ -3,7 +3,7 @@
 
 CMakeFiles/PalmVein.dir/palmvein.cpp.obj
  D:/Git_Project/github/MachineVisionWin/palmvein.cpp
- D:/Git_Project/github/MachineVisionWin/Hessian/include/frangi.h
+ D:/Git_Project/github/MachineVisionWin/FrangiFilter/include/frangi.h
  D:/Git_Project/github/MachineVisionWin/Palm/include/Palm.h
  D:/Libraries/opencv/opencv/build/x64/MinGW/opencv2/opencv_modules.hpp
  D:/Libraries/opencv/opencv/sources/include/opencv2/opencv.hpp

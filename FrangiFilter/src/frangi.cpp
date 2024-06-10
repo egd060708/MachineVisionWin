@@ -1,6 +1,7 @@
 #include "../include/frangi.h"
 #include <iostream>
 #include <fstream>
+#include <math.h>
 #define M_PI       3.14159265358979323846   // pi
 
 using namespace std;
@@ -18,8 +19,8 @@ void frangi2d_hessian(const Mat &src, Mat &Dxx, Mat &Dxy, Mat &Dyy, float sigma)
 	for (int x = -round(3*sigma); x <= round(3*sigma); x++){
 		j=0;
 		for (int y = -round(3*sigma); y <= round(3*sigma); y++){
-			kern_xx_f[i*n_kern_y + j] = 1.0f/(2.0f*M_PI*sigma*sigma*sigma*sigma) * (x*x/(sigma*sigma) - 1) * exp(-(x*x + y*y)/(2.0f*sigma*sigma));
-			kern_xy_f[i*n_kern_y + j] = 1.0f/(2.0f*M_PI*sigma*sigma*sigma*sigma*sigma*sigma)*(x*y)*exp(-(x*x + y*y)/(2.0f*sigma*sigma));
+			kern_xx_f[i*n_kern_y + j] = 1.0f/(2.0f*M_PI*powf(sigma,4)) * (powf(x,2)/powf(sigma,2) - 1) * exp(-(powf(x,2) + powf(y,2))/(2.0f*powf(sigma,2)));
+			kern_xy_f[i*n_kern_y + j] = 1.0f/(2.0f*M_PI*powf(sigma,6))*(x*y)*exp(-(powf(x,2) + powf(y,2))/(2.0f*powf(sigma,2)));
 			j++;
 		}
 		i++;
@@ -129,8 +130,8 @@ void frangi2_eig2image(const Mat &Dxx, const Mat &Dxy, const Mat &Dyy, Mat &lamb
 void frangi2d(const Mat &src, Mat &maxVals, Mat &whatScale, Mat &outAngles, frangi2d_opts_t opts){
 	vector<Mat> ALLfiltered;
 	vector<Mat> ALLangles;
-	float beta = 2*opts.BetaOne*opts.BetaOne;
-	float c = 2*opts.BetaTwo*opts.BetaTwo;
+	float beta = 2*powf(opts.BetaOne,2);
+	float c = 2*powf(opts.BetaTwo,2);
 
 	for (float sigma = opts.sigma_start; sigma <= opts.sigma_end; sigma += opts.sigma_step){
 		//创建2维 hessians 矩阵，并且得到Dxx Dxy Dyy
@@ -138,9 +139,9 @@ void frangi2d(const Mat &src, Mat &maxVals, Mat &whatScale, Mat &outAngles, fran
 		frangi2d_hessian(src, Dxx, Dxy, Dyy, sigma);
 
 		//根据论文定义，对结果进行修正
-		Dxx = Dxx*sigma*sigma;
-		Dyy = Dyy*sigma*sigma;
-		Dxy = Dxy*sigma*sigma;
+		Dxx = Dxx*powf(sigma,2);
+		Dyy = Dyy*powf(sigma,2);
+		Dxy = Dxy*powf(sigma,2);
 	
 		//calculate (abs sorted) eigenvalues and vectors
 		Mat lambda1, lambda2, Ix, Iy;
