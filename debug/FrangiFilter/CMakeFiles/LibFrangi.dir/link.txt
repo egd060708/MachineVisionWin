@@ -1,0 +1,2 @@
+D:\usefulTools\MinGW\mingw64\bin\ar.exe qc libLibFrangi.a CMakeFiles/LibFrangi.dir/src/frangi.cpp.obj
+D:\usefulTools\MinGW\mingw64\bin\ranlib.exe libLibFrangi.a

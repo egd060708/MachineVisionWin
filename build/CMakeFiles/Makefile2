@@ -161,8 +161,8 @@ CMakeFiles/FingerVein.dir/clean:
 # Target rules for target CMakeFiles/PalmVein.dir
 
 # All Build rule for target.
-CMakeFiles/PalmVein.dir/all: FrangiFilter/CMakeFiles/LibFrangi.dir/all
 CMakeFiles/PalmVein.dir/all: Palm/CMakeFiles/Palm.dir/all
+CMakeFiles/PalmVein.dir/all: FrangiFilter/CMakeFiles/LibFrangi.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PalmVein.dir\build.make CMakeFiles/PalmVein.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PalmVein.dir\build.make CMakeFiles/PalmVein.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Git_Project\github\MachineVisionWin\build\CMakeFiles --progress-num=26,27 "Built target PalmVein"

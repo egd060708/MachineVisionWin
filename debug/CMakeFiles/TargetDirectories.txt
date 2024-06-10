@@ -1,0 +1,14 @@
+D:/Git_Project/github/MachineVisionWin/debug/CMakeFiles/FingerVein.dir
+D:/Git_Project/github/MachineVisionWin/debug/CMakeFiles/PalmVein.dir
+D:/Git_Project/github/MachineVisionWin/debug/CMakeFiles/edit_cache.dir
+D:/Git_Project/github/MachineVisionWin/debug/CMakeFiles/rebuild_cache.dir
+D:/Git_Project/github/MachineVisionWin/debug/Finger/CMakeFiles/Finger.dir
+D:/Git_Project/github/MachineVisionWin/debug/Finger/CMakeFiles/edit_cache.dir
+D:/Git_Project/github/MachineVisionWin/debug/Finger/CMakeFiles/rebuild_cache.dir
+D:/Git_Project/github/MachineVisionWin/debug/Palm/CMakeFiles/Palm.dir
+D:/Git_Project/github/MachineVisionWin/debug/Palm/CMakeFiles/edit_cache.dir
+D:/Git_Project/github/MachineVisionWin/debug/Palm/CMakeFiles/rebuild_cache.dir
+D:/Git_Project/github/MachineVisionWin/debug/FrangiFilter/CMakeFiles/LibFrangi.dir
+D:/Git_Project/github/MachineVisionWin/debug/FrangiFilter/CMakeFiles/Frangi.dir
+D:/Git_Project/github/MachineVisionWin/debug/FrangiFilter/CMakeFiles/edit_cache.dir
+D:/Git_Project/github/MachineVisionWin/debug/FrangiFilter/CMakeFiles/rebuild_cache.dir

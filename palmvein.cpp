@@ -7,7 +7,7 @@
 using namespace std;
 using namespace cv;
 
-#define SUCCESS_SCORE 0.16
+#define SUCCESS_SCORE 0.15
 
 int main()
 {

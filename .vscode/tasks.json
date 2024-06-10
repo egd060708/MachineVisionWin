@@ -11,9 +11,40 @@
             }
         },
         {
-            "label": "clean",
+            "label": "make debug",
             "type": "shell",
-            "command": "make clean"
+            "command": "cd ./debug ;mingw32-make -j 4",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }
+
+// {
+//     "version": "2.0.0",
+//     "tasks": [
+//         {
+//             "label": "test",
+//             "command": "cd ./build ;mingw32-make -j 4",
+//             "args": [],
+//             "type": "shell",
+//             "problemMatcher": [
+//                 "$gcc"
+//             ],
+//             "group": {
+//                 "kind": "build",
+//                 "isDefault": true
+//             },
+//             "presentation": {
+//                 "echo": true,
+//                 "reveal": "always",
+//                 "focus": false,
+//                 "panel": "shared",
+//                 "showReuseMessage": true,
+//                 "clear": false
+//             }
+//         },
+//     ]
+// }

@@ -1,0 +1,2 @@
+D:\usefulTools\MinGW\mingw64\bin\ar.exe qc libFinger.a CMakeFiles/Finger.dir/src/enhance_finger_vein.cpp.obj CMakeFiles/Finger.dir/src/find_finger_edge.cpp.obj CMakeFiles/Finger.dir/src/find_knuckle.cpp.obj CMakeFiles/Finger.dir/src/finger_match.cpp.obj CMakeFiles/Finger.dir/src/get.cpp.obj CMakeFiles/Finger.dir/src/match.cpp.obj CMakeFiles/Finger.dir/src/preprocessing.cpp.obj CMakeFiles/Finger.dir/src/rotate_finger.cpp.obj CMakeFiles/Finger.dir/src/show.cpp.obj CMakeFiles/Finger.dir/src/spilt_finger_vein.cpp.obj
+D:\usefulTools\MinGW\mingw64\bin\ranlib.exe libFinger.a
