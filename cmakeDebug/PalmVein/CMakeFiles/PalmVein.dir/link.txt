@@ -1,0 +1,2 @@
+D:\usefulTools\MinGW\mingw64\bin\ar.exe qc libPalmVein.a CMakeFiles/PalmVein.dir/src/enhance_palm_vein.cpp.obj CMakeFiles/PalmVein.dir/src/get.cpp.obj CMakeFiles/PalmVein.dir/src/hand_roi.cpp.obj CMakeFiles/PalmVein.dir/src/palm_match.cpp.obj CMakeFiles/PalmVein.dir/src/show.cpp.obj CMakeFiles/PalmVein.dir/src/spilt_palm_vein.cpp.obj
+D:\usefulTools\MinGW\mingw64\bin\ranlib.exe libPalmVein.a

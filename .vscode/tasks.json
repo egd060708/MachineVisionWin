@@ -2,49 +2,69 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "make build",
+            "label": "cmake release",
             "type": "shell",
-            "command": "cd ./build ;mingw32-make -j 4",
+            "command": "cd ./cmakeRelease ;mingw32-make -j 4",
             "group": {
                 "kind": "build",
                 "isDefault": true
             }
         },
         {
-            "label": "make debug",
+            "label": "cmake debug",
             "type": "shell",
-            "command": "cd ./debug ;mingw32-make -j 4",
+            "command": "cd ./cmakeDebug ;mingw32-make -j 4",
             "group": {
                 "kind": "build",
                 "isDefault": true
             }
+        },
+        {
+            "type": "cppbuild",
+            "label": "json debug",
+            "command": "g++",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${workspaceFolder}\\${fileBasenameNoExtension}vein\\src\\*.cpp",
+                "${workspaceFolder}\\FrangiFilter\\src\\*.cpp",
+                "${file}",
+                "-L",
+                "D:\\Git_Project\\github\\MachineVisionWin",
+                "-I",
+                "D:\\Libraries\\opencv\\opencv\\build\\include",
+                "-I",
+                "D:\\Libraries\\opencv\\opencv\\build\\x64\\MinGW\\install\\include",
+                "-I",
+                "D:\\Libraries\\opencv\\opencv_contrib\\opencv_contrib-4.6.0\\modules\\plot\\include",
+                "-I",
+                "${workspaceFolder}\\FingerVein\\include",
+                "-I",
+                "${workspaceFolder}\\FrangiFilter\\include",
+                "-I",
+                "${workspaceFolder}\\PalmVein\\include",
+                "-l",
+                "libopencv_plot460",
+                "-l",
+                "libopencv_imgproc460",
+                "-l",
+                "libopencv_highgui460",
+                "-l",
+                "libopencv_core460",
+                "-l",
+                "libopencv_imgcodecs460",
+                "-o",
+                "${workspaceFolder}\\jsonDebug\\${fileBasenameNoExtension}.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": ["$gcc"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "调试器生成的任务。"
         }
     ]
 }
-
-// {
-//     "version": "2.0.0",
-//     "tasks": [
-//         {
-//             "label": "test",
-//             "command": "cd ./build ;mingw32-make -j 4",
-//             "args": [],
-//             "type": "shell",
-//             "problemMatcher": [
-//                 "$gcc"
-//             ],
-//             "group": {
-//                 "kind": "build",
-//                 "isDefault": true
-//             },
-//             "presentation": {
-//                 "echo": true,
-//                 "reveal": "always",
-//                 "focus": false,
-//                 "panel": "shared",
-//                 "showReuseMessage": true,
-//                 "clear": false
-//             }
-//         },
-//     ]
-// }

@@ -1,0 +1,3 @@
+D:\usefulTools\Cmake\bin\cmake.exe -E rm -f CMakeFiles\Palm.dir/objects.a
+D:\usefulTools\MinGW\mingw64\bin\ar.exe qc CMakeFiles\Palm.dir/objects.a @CMakeFiles\Palm.dir\objects1.rsp
+D:\usefulTools\MinGW\mingw64\bin\c++.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\Palm.dir/objects.a -Wl,--no-whole-archive -o Palm.exe -Wl,--out-implib,libPalm.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Palm.dir\linkLibs.rsp

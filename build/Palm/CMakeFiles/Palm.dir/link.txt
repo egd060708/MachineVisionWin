@@ -1,2 +1,0 @@
-D:\usefulTools\MinGW\mingw64\bin\ar.exe qc libPalm.a CMakeFiles/Palm.dir/src/enhance_palm_vein.cpp.obj CMakeFiles/Palm.dir/src/get.cpp.obj CMakeFiles/Palm.dir/src/hand_roi.cpp.obj CMakeFiles/Palm.dir/src/palm_match.cpp.obj CMakeFiles/Palm.dir/src/show.cpp.obj CMakeFiles/Palm.dir/src/spilt_palm_vein.cpp.obj
-D:\usefulTools\MinGW\mingw64\bin\ranlib.exe libPalm.a

@@ -1,15 +1,39 @@
+// {
+//     "configurations": [
+//         {
+//             "name": "Windows",
+//             "includePath": [
+//                 "${workspaceFolder}/**",
+//                 "D:/Libraries/opencv/opencv/build/x64/MinGW/install/include",
+//                 "D:/Libraries/opencv/opencv/build/include",
+//                 "D:/Libraries/opencv/opencv_contrib/opencv_contrib-4.6.0/modules/plot/include"
+//             ],
+//             "defines": [],
+//             "compilerPath": "D:/usefulTools/MinGW/mingw64/bin/g++.exe",
+//             "cStandard": "c11",
+//             "cppStandard": "c++17",
+//             "intelliSenseMode": "clang-x64"
+//         }
+//     ],
+//     "version": 4
+// }
+
 {
     "configurations": [
         {
-            "name": "Windows",
+            "name": "Windows", // 指示平台，如 Mac/Linux/Windows，实测乱填也行
             "includePath": [
                 "${workspaceFolder}/**",
                 "D:/Libraries/opencv/opencv/build/x64/MinGW/install/include",
                 "D:/Libraries/opencv/opencv/build/include",
-                "D:/Libraries/opencv/opencv_contrib/opencv_contrib-4.6.0/modules/plot/include"
+                "D:/Libraries/opencv/opencv_contrib/opencv_contrib-4.6.0/modules/plot/include",
+                "${workspaceFolder}/Finger/include",
+                "${workspaceFolder}/Palm/include",
+                "${workspaceFolder}/FrangiFilter/include",
+                "D:/usefulTools/MinGW/mingw64//bin"
             ],
-            "defines": [],
-            "compilerPath": "D://usefulTools//MinGW//mingw64//bin//g++.exe",
+            "defines": ["_DEBUG", "UNICODE", "_UNICODE"],
+            "compilerPath": "D:/usefulTools/MinGW/mingw64/bin/g++.exe",
             "cStandard": "c11",
             "cppStandard": "c++17",
             "intelliSenseMode": "clang-x64"
