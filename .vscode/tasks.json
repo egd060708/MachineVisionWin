@@ -34,8 +34,6 @@
                 "-I",
                 "D:\\Libraries\\opencv\\opencv\\build\\include",
                 "-I",
-                "D:\\Libraries\\opencv\\opencv\\build\\x64\\MinGW\\install\\include",
-                "-I",
                 "D:\\Libraries\\opencv\\opencv_contrib\\opencv_contrib-4.6.0\\modules\\plot\\include",
                 "-I",
                 "${workspaceFolder}\\FingerVein\\include",
