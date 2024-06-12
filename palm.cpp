@@ -7,7 +7,9 @@
 using namespace std;
 using namespace cv;
 
-#define SUCCESS_SCORE 0.15
+#define SUCCESS_SCORE 0.16
+#define BEGIN_TYPE 73
+#define END_TYPE 73
 
 int main()
 {
@@ -16,8 +18,9 @@ int main()
   uint32_t cnt = 0;
   vector<float> temp_scores;
   vector<float> temp_cnt;
+  vector<float> match_rate;
   // 从数据目录读取图片
-  for (int type = 73; type <= 73; type++)
+  for (int type = BEGIN_TYPE; type <= END_TYPE; type++)
   {
     vector<Mat> palm_src;
     vector<Palm> palms;
@@ -48,8 +51,6 @@ int main()
 
     // 计算匹配度以及匹配成功次数
     int success_sum = 0;
-
-    vector<float> match_rate;
     for (int i = 0; i < palms.size(); i++)
     {
       for (int j = 0; j < palms.size(); j++)
@@ -70,7 +71,7 @@ int main()
     }
     // 计算一组图片的匹配成功率
     match_rate.push_back((float)success_sum / (palms.size() * palms.size()));
-    cout << type << " match rate: " << match_rate[type] << endl;
+    cout << type << " match rate: " << match_rate[type - BEGIN_TYPE] << endl;
   }
   // 计算平均匹配分数
   mean_score /= cnt;

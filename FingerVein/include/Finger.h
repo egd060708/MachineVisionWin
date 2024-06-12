@@ -58,8 +58,8 @@ class Finger {
   cv::Mat finger_vein_split; //静脉纹理分割图片
 
 
-  vector<cv::Point2i> edge_left  ;  //左边缘
-  vector<cv::Point2i> edge_right  ;  //右边缘
+  vector<cv::Point2i> edge_up  ;  //上边缘
+  vector<cv::Point2i> edge_down  ;  //下边缘
   vector<cv::Point2i> edge_middle  ;  //中心边缘
 };
 

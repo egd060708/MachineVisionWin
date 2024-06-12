@@ -13,22 +13,22 @@ void Finger::find_knuckle()
 	// 左右收缩
 	int cod_x_right;
 	{
-		vector<int> edge_right_x;
-		for (auto &point : this->edge_right)
+		vector<int> edge_down_x;
+		for (auto &point : this->edge_down)
 		{
-			edge_right_x.emplace_back(point.x);
+			edge_down_x.emplace_back(point.x);
 		}
-		cod_x_right = *(std::min_element(edge_right_x.begin(), edge_right_x.end()));
+		cod_x_right = *(std::min_element(edge_down_x.begin(), edge_down_x.end()));
 	}
 
 	int cod_x_left;
 	{
-		vector<int> edge_left_x;
-		for (auto &point : this->edge_left)
+		vector<int> edge_up_x;
+		for (auto &point : this->edge_up)
 		{
-			edge_left_x.emplace_back(point.x);
+			edge_up_x.emplace_back(point.x);
 		}
-		cod_x_left = *(std::max_element(edge_left_x.begin(), edge_left_x.end()));
+		cod_x_left = *(std::max_element(edge_up_x.begin(), edge_up_x.end()));
 	}
 	line(temp, Point2i(cod_x_left, 0), Point2i(cod_x_left, temp.rows - 1), Scalar(0, 255, 0));
 	line(temp, Point2i(cod_x_right, 0), Point2i(cod_x_right, temp.rows - 1), Scalar(0, 255, 0));
