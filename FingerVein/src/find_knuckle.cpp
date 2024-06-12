@@ -8,61 +8,77 @@ void Finger::find_knuckle()
 {
 	this->finger_roi = this->finger_rotate.clone();
 
-	// 上下收缩
-	Mat temp = finger_roi.rowRange(static_cast<int>(finger_roi.rows * 0.05), static_cast<int>(finger_roi.rows * 0.95)).clone();
 	// 左右收缩
-	int cod_x_right;
-	{
-		vector<int> edge_down_x;
-		for (auto &point : this->edge_down)
-		{
-			edge_down_x.emplace_back(point.x);
-		}
-		cod_x_right = *(std::min_element(edge_down_x.begin(), edge_down_x.end()));
-	}
-
-	int cod_x_left;
-	{
-		vector<int> edge_up_x;
-		for (auto &point : this->edge_up)
-		{
-			edge_up_x.emplace_back(point.x);
-		}
-		cod_x_left = *(std::max_element(edge_up_x.begin(), edge_up_x.end()));
-	}
-	line(temp, Point2i(cod_x_left, 0), Point2i(cod_x_left, temp.rows - 1), Scalar(0, 255, 0));
-	line(temp, Point2i(cod_x_right, 0), Point2i(cod_x_right, temp.rows - 1), Scalar(0, 255, 0));
-	// imshow("finger_roi", temp);
+	// Mat temp = finger_roi.rowRange(static_cast<int>(finger_roi.rows * 0.05), static_cast<int>(finger_roi.rows * 0.95)).clone();
+	Mat temp;
+  	temp = finger_roi.rowRange(static_cast<int>(finger_roi.rows * 0.18), static_cast<int>(finger_roi.rows * 0.92)).clone();
+  	temp = temp.colRange(static_cast<int>(temp.cols * 0.1),static_cast<int>(temp.cols * 0.99)).clone();
+	find_finger_edge(this->finger_roi,0.18,0.91,0.1,0.99);
+	// imshow("ori",finger_roi);
 	// waitKey(1);
+	// imshow("temp",temp);
+	// waitKey(0);
+	// 上下收缩
+	int cod_y_down;
+	{
+		vector<int> edge_down_y;
+		for (auto &point : *this->edge_down)
+		{
+			edge_down_y.emplace_back(point.y);
+		}
+		cod_y_down = *(std::min_element(edge_down_y.begin(), edge_down_y.end()));
+	}
 
-	this->finger_roi = this->finger_roi.rowRange(static_cast<int>(finger_roi.rows * 0.05), static_cast<int>(finger_roi.rows * 0.95)).clone();
-	this->finger_roi = this->finger_roi.colRange(static_cast<int>(cod_x_left), static_cast<int>(cod_x_right)).clone();
+	int cod_y_up;
+	{
+		vector<int> edge_up_y;
+		for (auto &point : *this->edge_up)
+		{
+			edge_up_y.emplace_back(point.y);
+		}
+		cod_y_up = *(std::max_element(edge_up_y.begin(), edge_up_y.end()));
+	}
+	// 创建保存一个不画线的
+	Mat temp1 = temp.clone();
+	line(temp, Point2i(0, cod_y_up), Point2i(temp.cols - 1,cod_y_up), Scalar(0, 255, 0));
+	line(temp, Point2i(0, cod_y_down), Point2i(temp.cols - 1, cod_y_down), Scalar(0, 255, 0));
+	imshow("finger_roi_get", temp);
+	waitKey(1);
+	// 截取出最终选定区域
+	this->finger_roi = temp1.rowRange(static_cast<int>(cod_y_up), static_cast<int>(cod_y_down)).clone();
+	// this->finger_roi = this->finger_roi.colRange(static_cast<int>(finger_roi.cols * 0.1),static_cast<int>(finger_roi.cols * 0.92)).clone();
 	// imshow("finger_roi_true", this->finger_roi);
 	// waitKey(1);
 
 	// 接下来在 手指图中寻找到两个亮的地方 找到关节
 	vector<uint64_t> windows_value;
 	vector<int> coordinate;
+	Mat finger_roi_grey_tmp;
 	Mat finger_roi_gray;
 
-	cvtColor(this->finger_roi, finger_roi_gray, COLOR_BGR2GRAY);
+	// 转为灰度图（由于某些图右侧指关节没有明显亮度增强，因此需要增加灰度图像的对比度）
+	cvtColor(this->finger_roi, finger_roi_grey_tmp, COLOR_BGR2GRAY);
 	{
-		//imshow("finger_roi_gray", finger_roi_gray);
-		//waitKey(1);
+		// imshow("finger_roi_gray_tmp", finger_roi_grey_tmp);
+		// waitKey(1);
+		// 直方图均衡化
+		cv::equalizeHist(finger_roi_grey_tmp, finger_roi_gray);
+		// imshow("finger_roi_gray", finger_roi_gray);
+		// waitKey(1);
 	}
 
-	for (int row = 10; row < finger_roi_gray.rows - 10; row++)
+	for (int col = 10; col < finger_roi_gray.cols - 11; col++)
 	{
 		uint64_t pixel_sum_value = 0;						   // 初始化像素值为 0
-		for (int row_w = row - 10; row_w <= row + 10; row_w++) // 扫描每一行上下10个像素的领域
+		for (int col_w = col - 10; col_w <= col + 10; col_w++) // 扫描每一列上下10个像素的领域
 		{
-			for (int col = 0; col < finger_roi_gray.cols; col++)
+			for (int row = 0; row < finger_roi_gray.rows - 1; row++)
 			{
-				pixel_sum_value += finger_roi_gray.ptr<uchar>(row_w)[col]; // 记录下整个区域内的像素和
+				pixel_sum_value += finger_roi_gray.ptr<uchar>(row)[col_w]; // 记录下整个区域内的像素和
 			}
 		}
 		windows_value.emplace_back(pixel_sum_value); //  ##将找到的像素值存起来
-		coordinate.emplace_back(row);				 //  ##对应的中心行也存起来
+		coordinate.emplace_back(col);				 //  ##对应的中心行也存起来
 	}
 
 	vector<uint64_t> peak; // 存放极大值点
@@ -79,6 +95,7 @@ void Finger::find_knuckle()
 			for (int j = i - field; j <= i + field; ++j)
 			{
 				int temp_j = j;
+				// 处理边缘邻域溢出情况
 				if (temp_j < 0)
 					temp_j += windows_value.size();
 				if (temp_j >= windows_value.size())
@@ -99,7 +116,7 @@ void Finger::find_knuckle()
 			}
 		}
 
-		if(peak.size() == 2)
+		if(peak.size() <= 2)
 			break;
 		else if(peak.size() > 2)
 		{
@@ -109,26 +126,33 @@ void Finger::find_knuckle()
 			field += 20;
 			continue;
 		}
-		else
-		{
-			while (1)
-			{
-			}
-		}
 	};
-
-	{
-		Mat temp = this->finger_roi.clone();
-		for (auto row : pin)
+	// 截取到两个极大值，然后分割出最后的区域
+	if(peak.size() == 2){
+		Mat temp2 = this->finger_roi.clone();
+		for (auto col : pin)
 		{
-			line(temp, Point2i(0, row), Point2i(temp.cols - 1, row), Scalar(255, 0, 0));
+			line(temp2, Point2i(col, 0), Point2i(col, temp2.rows - 1), Scalar(255, 0, 0));
 		}
-
-		imshow("temp", temp);
+		imshow("temp2", temp2);
 		waitKey(1);
+		this->finger_roi = this->finger_roi.colRange(std::min(pin[0], pin[1]), std::max(pin[0], pin[1])).clone();
+		// imshow("finger_roi", this->finger_roi);
+		// waitKey(1);
+	}
+	else{
+		Mat temp2 = this->finger_roi.clone();
+		for (auto col : pin)
+		{
+			line(temp2, Point2i(col, 0), Point2i(col, temp2.rows - 1), Scalar(255, 0, 0));
+			line(temp2, Point2i(temp2.cols - 1 - static_cast<int>(0.5*col), 0), Point2i(temp2.cols - 1 - static_cast<int>(0.5*col), temp2.rows - 1), Scalar(255, 0, 0));
+		}
+		imshow("temp2", temp2);
+		waitKey(1);
+		this->finger_roi = this->finger_roi.colRange(std::min(pin[0], temp2.cols - 1 - static_cast<int>(0.5*pin[0])), std::max(pin[0], temp2.cols - 1 - static_cast<int>(0.5*pin[0]))).clone();
+		// imshow("finger_roi", this->finger_roi);
+		// waitKey(1);
 	}
 
-	this->finger_roi = this->finger_roi.rowRange(std::min(pin[0], pin[1]), std::max(pin[0], pin[1])).clone();
-	// imshow("finger_roi", this->finger_roi);
-	// waitKey(1);
+	
 }

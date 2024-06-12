@@ -87,7 +87,7 @@ void Finger::spilt_finger_vein()
 
   this->finger_vein_split = split_temp.clone();
   imshow("vein_split", finger_vein_split);
-  waitKey(0);
+  waitKey(1);
 }
 
 void on_bilateralFilterTrackbar(int, void *)

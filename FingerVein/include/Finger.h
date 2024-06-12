@@ -18,7 +18,7 @@ class Finger {
   Finger(const cv::Mat &_finger_src) :finger_src(_finger_src.clone()) { }
 
   void preprocessing(); //图像的预处理
-  void find_finger_edge(); // 对图像进行手指边缘检测 ,获取手指的两个边沿
+  void find_finger_edge(InputArray src, float cutScaleUp, float cutScaleDown, float cutScaleLeft, float cutScaleRight); // 对图像进行手指边缘检测 ,获取手指的两个边沿
   void get_middle_line(); // 根据手指两个边缘拟合手指中线，
   void rotate_finger(); // 求出手指旋转角度，进行旋转角度校正 得到旋转手指图像
 
@@ -58,8 +58,8 @@ class Finger {
   cv::Mat finger_vein_split; //静脉纹理分割图片
 
 
-  vector<cv::Point2i> edge_up  ;  //上边缘
-  vector<cv::Point2i> edge_down  ;  //下边缘
-  vector<cv::Point2i> edge_middle  ;  //中心边缘
+  vector<cv::Point2i>* edge_up  ;  //上边缘
+  vector<cv::Point2i>* edge_down  ;  //下边缘
+  vector<cv::Point2i>* edge_middle  ;  //中心边缘
 };
 
