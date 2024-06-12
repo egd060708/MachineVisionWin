@@ -38,6 +38,9 @@ void Finger::find_knuckle()
 		}
 		cod_y_up = *(std::max_element(edge_up_y.begin(), edge_up_y.end()));
 	}
+	// // 由于手指边缘干扰较多，多往内截取一部分
+	// cod_y_up += 15;
+	// cod_y_down -= 15;
 	// 创建保存一个不画线的
 	Mat temp1 = temp.clone();
 	line(temp, Point2i(0, cod_y_up), Point2i(temp.cols - 1,cod_y_up), Scalar(0, 255, 0));
