@@ -69,7 +69,7 @@ void Finger::spilt_finger_vein()
   vector<vector<cv::Point>> contours_small_area;
   for (auto small_area : contours)
   {
-    if (contourArea(small_area, false) < 60)
+    if (contourArea(small_area, false) < 30)
     {
       contours_small_area.emplace_back(small_area);
     }

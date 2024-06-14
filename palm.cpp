@@ -7,7 +7,7 @@
 using namespace std;
 using namespace cv;
 
-#define SUCCESS_SCORE 0.16
+#define SUCCESS_SCORE 0.18
 #define BEGIN_TYPE 73
 #define END_TYPE 82
 
@@ -16,7 +16,8 @@ int main()
   // 定义图像匹配的平均分数
   float mean_score = 0;
   uint32_t cnt = 0;
-  vector<float> match_rate;
+  vector<vector<Palm>> all_palms;
+  cout<<"self rate: "<<endl;
   // 从数据目录读取图片
   for (int type = BEGIN_TYPE; type <= END_TYPE; type++)
   {
@@ -25,7 +26,7 @@ int main()
     vector<float> temp_scores;
     vector<float> temp_cnt;
 
-    for (int i = 1; i <= 30; i++)
+    for (int i = 11; i <= 20; i++)
     {
       char temp[100];
       sprintf(temp, "../picture/Palms/%d/%d_%d.bmp", type, type, i);
@@ -48,6 +49,7 @@ int main()
       // 分割手掌静脉纹理
       palms[i].spilt_palm_vein();
     }
+    all_palms.push_back(palms);
 
     // 计算匹配度以及匹配成功次数
     int success_sum = 0;
@@ -72,8 +74,8 @@ int main()
       }
     }
     // 计算一组图片的匹配成功率
-    match_rate.push_back((float)success_sum / (palms.size() * palms.size()));
-    cout << type << " match rate: " << match_rate[type - BEGIN_TYPE] << endl;
+    float match_rate = (float)success_sum / (palms.size() * palms.size());
+    cout << type << " match rate: " << match_rate << endl;
     // 转换为opencv数据类型
     Mat mat_x(1, temp_cnt.size(), CV_64F);
     Mat mat_y(1, temp_scores.size(), CV_64F);
@@ -112,7 +114,7 @@ int main()
     int devide_num = int(y_max*10) / int(step*10);
     // 添加图表标题和坐标轴标签
     putText(plot_result, "Score Line", Point(50, 30), FONT_HERSHEY_PLAIN, 1, Scalar(0, 255, 0), 1.5);
-    putText(plot_result, to_string(type) + string(" match rate: ") + to_string(match_rate[type - BEGIN_TYPE]), Point(450, 30), FONT_HERSHEY_PLAIN, 1, Scalar(0, 255, 0), 1.5);
+    putText(plot_result, to_string(type) + string(" match rate: ") + to_string(match_rate), Point(450, 30), FONT_HERSHEY_PLAIN, 1, Scalar(0, 255, 0), 1.5);
     for (int i = 1; i <= (devide_num - 1); i++)
     {
       putText(plot_result, "-", Point(0, height - 1 - i * height / devide_num + 0.005 * height), FONT_HERSHEY_PLAIN, 1, Scalar(255, 255, 255), 1);
@@ -153,6 +155,47 @@ int main()
   // 计算平均匹配分数
   mean_score /= cnt;
   cout << "mean_score: " << mean_score << endl;
+
+
+  // 计算类间匹配率
+  cout<<"\n\nother rate: "<<endl;
+  for(int i=0;i<all_palms.size();i++)
+  {
+    for(int j=0;j<all_palms.size();j++)
+    {
+      if(i!=j)
+      {
+        vector<float> temp_scores;
+        vector<float> temp_cnt;
+        float match_rate;
+        int each_cnt = 0;
+        int success_sum = 0;
+        for(int k=0;k<all_palms[i].size();k++)
+        {
+          for(int l=0;l<all_palms[j].size();l++)
+          {
+            // 获取任意两组内任意两张图片
+            Mat img1 = all_palms[i][k].get_palm_vein_split().clone();
+            Mat img2 = all_palms[j][l].get_palm_vein_split().clone();
+            // 计算匹配度
+            double score = palm_match(img1, img2);
+            mean_score += score;
+            temp_cnt.push_back(each_cnt);
+            cnt++;
+            each_cnt++;
+            temp_scores.push_back(score);
+            // 匹配度高于一定分数，视为成功匹配
+            if (score > SUCCESS_SCORE)
+              success_sum++;
+            }
+        }
+        // 计算一组图片的匹配成功率
+        match_rate = (float)success_sum / (all_palms[i].size() * all_palms[j].size());
+        cout << i << " and " << j << " match rate: " << match_rate << endl;
+      }
+    }
+  }
+
   system("pause");
   return 0;
 }

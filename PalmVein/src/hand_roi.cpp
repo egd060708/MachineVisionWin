@@ -50,6 +50,10 @@ void Palm::palm_roi_process()
 		temp_roi = 0;
 		drawContours(temp_roi, contours, max_contour_index, Scalar(255), -1);
 	}
+	// imshow("src",palm_src);
+	// waitKey(1);
+	// imshow("temp_roi",temp_roi);
+	// waitKey(0);
 
 	Point palm_center;
 	int maxdist = 0;
@@ -223,9 +227,9 @@ void Palm::palm_roi_process()
 			size = fingerRoot.size();
 		}
 
-		if (fingerRoot.size() < 3 || fingerRoot.size() >= 5)
+		if (fingerRoot.size() < 3)
 		{
-			cout << "detect fingerRoot fail " << endl;
+			cout << "detect fingerRoot fail " << fingerRoot.size() << endl;
 			while (1)
 			{
 			}

@@ -27,8 +27,8 @@
                 "D:/Libraries/opencv/opencv/build/x64/MinGW/install/include",
                 "D:/Libraries/opencv/opencv/build/include",
                 "D:/Libraries/opencv/opencv_contrib/opencv_contrib-4.6.0/modules/plot/include",
-                "${workspaceFolder}/Finger/include",
-                "${workspaceFolder}/Palm/include",
+                "${workspaceFolder}/FingerVein/include",
+                "${workspaceFolder}/PalmVein/include",
                 "${workspaceFolder}/FrangiFilter/include",
                 "D:/usefulTools/MinGW/mingw64//bin"
             ],

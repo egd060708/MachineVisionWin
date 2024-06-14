@@ -7,7 +7,7 @@
 using namespace std;
 using namespace cv;
 
-#define SUCCESS_SCORE 0.16
+#define SUCCESS_SCORE 0.15
 #define BEGIN_TYPE 109
 #define END_TYPE 118
 
@@ -16,6 +16,8 @@ int main()
   // 定义图像匹配的平均分数
   float mean_score = 0;
   uint32_t cnt = 0;
+  vector<vector<Finger>> all_fingers;
+  cout<<"self rate: "<<endl;
   // 从数据目录读取图片
   for (int type = BEGIN_TYPE; type <= END_TYPE; type++)
   {
@@ -49,6 +51,7 @@ int main()
       // 分割手指静脉纹理
       fingers[i].spilt_finger_vein();
     }
+    all_fingers.push_back(fingers);
 
     // 计算匹配度以及匹配成功次数
     int success_sum = 0;
@@ -157,6 +160,46 @@ int main()
   // 计算平均匹配分数
   mean_score /= cnt;
   cout << "mean_score: " << mean_score << endl;
+
+
+  // 计算类间匹配率
+  cout<<"\n\nother rate: "<<endl;
+  for(int i=0;i<all_fingers.size();i++)
+  {
+    for(int j=0;j<all_fingers.size();j++)
+    {
+      if(i!=j)
+      {
+        vector<float> temp_scores;
+        vector<float> temp_cnt;
+        float match_rate;
+        int each_cnt = 0;
+        int success_sum = 0;
+        for(int k=0;k<all_fingers[i].size();k++)
+        {
+          for(int l=0;l<all_fingers[j].size();l++)
+          {
+            // 获取任意两组内任意两张图片
+            Mat img1 = all_fingers[i][k].get_finger_vein_split().clone();
+            Mat img2 = all_fingers[j][l].get_finger_vein_split().clone();
+            // 计算匹配度
+            double score = finger_match(img1, img2);
+            mean_score += score;
+            temp_cnt.push_back(each_cnt);
+            cnt++;
+            each_cnt++;
+            temp_scores.push_back(score);
+            // 匹配度高于一定分数，视为成功匹配
+            if (score > SUCCESS_SCORE)
+              success_sum++;
+            }
+        }
+        // 计算一组图片的匹配成功率
+        match_rate = (float)success_sum / (all_fingers[i].size() * all_fingers[j].size());
+        cout << i << " and " << j << " match rate: " << match_rate << endl;
+      }
+    }
+  }
   
   system("pause");
   return 0;

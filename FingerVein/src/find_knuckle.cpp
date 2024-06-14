@@ -137,7 +137,7 @@ void Finger::find_knuckle()
 		{
 			line(temp2, Point2i(col, 0), Point2i(col, temp2.rows - 1), Scalar(255, 0, 0));
 		}
-		imshow("temp2", temp2);
+		imshow("finger_roi_get2", temp2);
 		waitKey(1);
 		this->finger_roi = this->finger_roi.colRange(std::min(pin[0], pin[1]), std::max(pin[0], pin[1])).clone();
 		// imshow("finger_roi", this->finger_roi);
@@ -150,7 +150,7 @@ void Finger::find_knuckle()
 			line(temp2, Point2i(col, 0), Point2i(col, temp2.rows - 1), Scalar(255, 0, 0));
 			line(temp2, Point2i(temp2.cols - 1 - static_cast<int>(0.5*col), 0), Point2i(temp2.cols - 1 - static_cast<int>(0.5*col), temp2.rows - 1), Scalar(255, 0, 0));
 		}
-		imshow("temp2", temp2);
+		imshow("finger_roi_get2", temp2);
 		waitKey(1);
 		this->finger_roi = this->finger_roi.colRange(std::min(pin[0], temp2.cols - 1 - static_cast<int>(0.5*pin[0])), std::max(pin[0], temp2.cols - 1 - static_cast<int>(0.5*pin[0]))).clone();
 		// imshow("finger_roi", this->finger_roi);

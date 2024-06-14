@@ -30,7 +30,7 @@ void Finger::find_finger_edge(InputArray src, float cutScaleUp, float cutScaleDo
   cv::cvtColor(temp, temp_binary, COLOR_BGR2GRAY, 1);
   // std::cout<<temp_binary.cols<<" "<<temp_binary.rows<<std::endl;
   // imshow("edges", temp_binary);
-  // waitKey(1);
+  // waitKey(0);
   // 寻找上边缘线
   for (int i = 0; i < temp_binary.cols - 1; ++i)
   {

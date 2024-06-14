@@ -14,7 +14,7 @@ void Finger::rotate_finger()
   // std::cout<<middle_line_k<<std::endl;
   // std::cout<<middle_fit_line[2]<<"  "<<middle_fit_line[3]<<std::endl;
   // middle_line_k =(left_line_k+right_line_k)/2;
-  double step_middle = 40;
+  double step_middle = 100;
   cv::Point2i middle_line_point_1(middle_fit_line[2] - step_middle, middle_fit_line[3] - middle_line_k * step_middle);
   cv::Point2i middle_line_point_2(middle_fit_line[2] + step_middle, middle_line_k * step_middle + middle_fit_line[3]);
   cv::line(temp, middle_line_point_1, middle_line_point_2, Scalar(0, 255, 0), 4);
@@ -46,16 +46,7 @@ void Finger::rotate_finger()
   imshow("mid_line&fit_line", temp);
   waitKey(1);
 
-  double degree = atan(middle_line_k) * 180 / CV_PI; // 输出在-90 和 90 之间
-  // if (degree < 0)
-  // {
-  //   degree = 90 - abs(degree);
-  // }
-  // else
-  // {
-  //   degree = -(90 - abs(degree));
-  // }
-  // std::cout<<degree<<std::endl;
+  double degree = atan(middle_line_k) * 180 / CV_PI; // 获取旋转角度
 
   Point2f center = Point2f(finger_preprocessing.rows / 2, finger_preprocessing.cols / 2);
   Mat martix = getRotationMatrix2D(center, degree, 1); // 得到仿射矩阵  k_line2/CV_PI*180 弧度转角度
@@ -64,5 +55,5 @@ void Finger::rotate_finger()
   // imshow("finger",this->finger_preprocessing);
   // waitKey(1);
   // imshow("finger_rotate", this->finger_rotate);
-  // waitKey(1);
+  // waitKey(0);
 }
